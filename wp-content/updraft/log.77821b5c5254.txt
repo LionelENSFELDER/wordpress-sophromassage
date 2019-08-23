@@ -1,0 +1,141 @@
+0000.001 (0) Opened log file at time: Sun, 18 Aug 2019 04:57:03 +0000 on http://localhost:8080/sophromassage
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.16 WP: 5.2.2 PHP: 7.2.7 (apache2handler, Windows NT DESKTOP-MSL91C9 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.7.11 WPLANG: fr_FR Server: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 4M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 25899.2 MB
+0000.023 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.032 (0) Semaphore (fd, wp_options) being initialised
+0000.047 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.069 (0) Set semaphore last lock (fd) time to 2019-08-18 04:57:03
+0000.075 (0) Semaphore lock (fd) complete
+0000.094 (0) Backup run: resumption=0, nonce=77821b5c5254, file_nonce=77821b5c5254 begun at=1566104223 (0s ago), job type=backup
+0000.106 (0) Scheduling a resumption (1) after 300 seconds (1566104523) in case this run gets aborted
+0000.128 (0) Checking if we have a zip executable available
+0000.139 (0) Creation of backups of directories: beginning
+0000.172 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.581 (0) Total entities for the zip file: 210 directories, 1371 files (0 skipped as non-modified), 22.8 MB
+0000.843 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.059 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.269 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.468 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.672 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.680 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19 MB, 1371 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.706 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 600 files added (on-disk size: 5427.1 KB)
+0008.905 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 700 files added (on-disk size: 5427.1 KB)
+0009.108 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 800 files added (on-disk size: 5427.1 KB)
+0009.310 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 900 files added (on-disk size: 5427.1 KB)
+0009.515 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 1000 files added (on-disk size: 5427.1 KB)
+0009.524 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 1371 files batched, 501 (1002) added so far); re-opening (prior size: 5427.1 KB)
+0015.501 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 1100 files added (on-disk size: 6132.5 KB)
+0015.707 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 1200 files added (on-disk size: 6132.5 KB)
+0015.912 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip.tmp: 1300 files added (on-disk size: 6132.5 KB)
+0019.039 (0) Created plugins zip (0) - 6760 KB in 18.9 s (358.5 KB/s) (sha1: de9a2414fa04c636d530fdcc5c69cafdb0c33a24, sha256: 1fbac87b1b3feb86c958d277cdefcc4595963cefa51ba3ece67cfcdbb6f75284)
+0019.052 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.204 (0) Total entities for the zip file: 66 directories, 322 files (0 skipped as non-modified), 27.3 MB
+0020.256 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.698 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0021.854 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.2 MB, 216 (216) files added so far); re-opening (prior size: 0 KB)
+0023.268 (0) Zip: backup_2019-08-18-0657_Sophromassage_77821b5c5254-themes.zip.tmp: 300 files added (on-disk size: 2152.5 KB)
+0035.859 (0) Created themes zip (0) - 17426.4 KB in 16.8 s (1037.3 KB/s) (sha1: cd0294c53c06e00a0061f30e08bdcabfdb89f156, sha256: 9b01e09942d45c1fb8b2c738444fe88e9ebf29d8febc1aaa07cba45fc968905c)
+0035.874 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0035.880 (0) Looking for candidates to backup in: F:\UwAmp\www\sophromassage/wp-content/uploads
+0035.885 (0) finding files: 2019: adding to list (1)
+0035.890 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0035.952 (0) Total entities for the zip file: 3 directories, 66 files (0 skipped as non-modified), 26.3 MB
+0036.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.3 MB, 66 files batched, 66 (66) added so far); re-opening (prior size: 0 KB)
+0042.448 (0) A useful amount of data was added after this amount of zip processing: 6.6 s (normalised: 6.3 s, rate: 4090.7 KB/s)
+0042.757 (0) Created uploads zip (0) - 26985.9 KB in 6.9 s (3936.6 KB/s) (sha1: 3fe36de2c26741c5ae98f8c53b1560ad3e655951, sha256: 6f8c19fd338a799722a41ce91ef91c926515825d613c4b4b5dea334df5a3e31d)
+0042.770 (0) Beginning backup of other directories found in the content directory (index: 0)
+0042.776 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0042.784 (0) Looking for candidates to backup in: F:\UwAmp\www\sophromassage/wp-content
+0042.789 (0) finding files: index.php: adding to list (1)
+0042.794 (0) finding files: languages: adding to list (2)
+0042.799 (0) finding files: plugins: skipping: this is the plugins directory
+0042.805 (0) finding files: themes: skipping: this is the themes directory
+0042.811 (0) finding files: updraft: skipping: this is the updraft directory
+0042.817 (0) finding files: upgrade: skipping: excluded by options
+0042.823 (0) finding files: uploads: skipping: this is the uploads directory
+0042.877 (0) Total entities for the zip file: 3 directories, 32 files (0 skipped as non-modified), 2.3 MB
+0043.653 (0) Created others zip (0) - 660.3 KB in 0.8 s (803.6 KB/s) (sha1: 2f778c420c4b140868ee5b07e7f221e0107e08e0, sha256: bc693a259859acae8bff65ce35adc289300b5d83ec10481b36e9544993cb5ae2)
+0043.680 (0) Saving backup status to database (elements: 8)
+0043.694 (0) Beginning creation of database dump (WordPress DB)
+0043.763 (0) Table wp_options: Total expected rows (approximate): 172
+0043.786 (0) Table wp_options: Total rows added: 168 in 0.02 seconds
+0043.811 (0) Table wp_options: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_options.table.gz - 48.3 KB)
+0043.836 (0) Table wp_users: Total expected rows (approximate): 0
+0043.843 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0043.857 (0) Table wp_users: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_users.table.gz - 0.6 KB)
+0043.923 (0) Table wp_usermeta: Total expected rows (approximate): 22
+0043.931 (0) Table wp_usermeta: Total rows added: 22 in 0.00 seconds
+0043.948 (0) Table wp_usermeta: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_usermeta.table.gz - 1.1 KB)
+0043.976 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0043.987 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0044.002 (0) Table wp_commentmeta: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0044.030 (0) Table wp_comments: Total expected rows (approximate): 0
+0044.036 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0044.052 (0) Table wp_comments: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_comments.table.gz - 0.8 KB)
+0044.081 (0) Table wp_links: Total expected rows (approximate): 0
+0044.087 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0044.102 (0) Table wp_links: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_links.table.gz - 0.4 KB)
+0044.135 (0) Table wp_postmeta: Total expected rows (approximate): 94
+0044.145 (0) Table wp_postmeta: Total rows added: 100 in 0.00 seconds
+0044.169 (0) Table wp_postmeta: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_postmeta.table.gz - 2.6 KB)
+0044.197 (0) Table wp_posts: Total expected rows (approximate): 31
+0044.210 (0) Table wp_posts: Total rows added: 34 in 0.01 seconds
+0044.241 (0) Table wp_posts: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_posts.table.gz - 5.7 KB)
+0044.273 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0044.285 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0044.305 (0) Table wp_term_relationships: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0044.333 (0) Table wp_term_taxonomy: Total expected rows (approximate): 0
+0044.339 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0044.354 (0) Table wp_term_taxonomy: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0044.384 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0044.390 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0044.405 (0) Table wp_termmeta: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_termmeta.table.gz - 0.4 KB)
+0044.445 (0) Table wp_terms: Total expected rows (approximate): 0
+0044.452 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0044.467 (0) Table wp_terms: finishing file (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_terms.table.gz - 0.4 KB)
+0044.497 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_options.table.gz (1/12): adding to final database dump
+0044.513 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_users.table.gz (2/12): adding to final database dump
+0044.521 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0044.532 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0044.538 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0044.544 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_links.table.gz (6/12): adding to final database dump
+0044.549 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0044.557 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0044.564 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0044.572 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0044.578 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0044.584 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0044.591 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db.gz: finished writing out complete database file (48 KB)
+0044.666 (0) Total database tables backed up: 12 (backup_2019-08-18-0657_Sophromassage_77821b5c5254-db.gz, size: 59762, sha1: 69795f8bd085c33b38ae3950a31bd154b9d1619c, sha256: a85fbb95a5839f68e89290cc1ebd894286788b055f0b14a4871ec9cd9f33d29d)
+0044.696 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0044.705 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0044.710 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0044.716 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-others.zip: others: This file has not yet been successfully uploaded: will queue
+0044.721 (0) backup_2019-08-18-0657_Sophromassage_77821b5c5254-db.gz: db: This file has not yet been successfully uploaded: will queue
+0044.726 (0) Saving backup history. Total backup size: 50.7 MB
+0044.736 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0044.761 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0044.766 (0) No remote despatch: user chose no remote backup service
+0044.771 (0) Recording as successfully uploaded: backup_2019-08-18-0657_Sophromassage_77821b5c5254-plugins.zip
+0044.786 (0) Recording as successfully uploaded: backup_2019-08-18-0657_Sophromassage_77821b5c5254-themes.zip
+0044.796 (0) Recording as successfully uploaded: backup_2019-08-18-0657_Sophromassage_77821b5c5254-uploads.zip
+0044.813 (0) Recording as successfully uploaded: backup_2019-08-18-0657_Sophromassage_77821b5c5254-others.zip
+0044.827 (0) Recording as successfully uploaded: backup_2019-08-18-0657_Sophromassage_77821b5c5254-db.gz
+0044.852 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0044.858 (0) Number of backup sets in history: 1; groups (db): 1
+0044.863 (0) Examining (for databases) backup set with group_id=0, nonce=77821b5c5254, datestamp=1566104223 (Aug 18 2019 04:57:03)
+0044.868 (0) This backup set is the backup set just made, so will not be deleted.
+0044.868 (0) Number of backup sets in history: 1; groups (files): 1
+0044.874 (0) Examining (for files) backup set with nonce=77821b5c5254, datestamp=1566104223 (Aug 18 2019 04:57:03)
+0044.874 (0) This backup set is the backup set just made, so will not be deleted.
+0044.879 (0) This backup set is the backup set just made, so will not be deleted.
+0044.880 (0) This backup set is the backup set just made, so will not be deleted.
+0044.880 (0) This backup set is the backup set just made, so will not be deleted.
+0044.880 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0044.885 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0044.899 (0) Resume backup (77821b5c5254, 0): finish run
+0044.915 (0) Decremented the semaphore (fd) by 1
+0044.932 (0) Semaphore (fd) unlocked
+0044.938 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0044.958 (0) No email will/can be sent - the user has not configured an email address.
+0044.963 (0) The backup apparently succeeded and is now complete

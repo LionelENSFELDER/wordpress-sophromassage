@@ -1,0 +1,72 @@
+/*
+Theme Name:wp-bootstrap-starter-child
+Description:Child theme of wp-bootstrap-starter theme
+Author:Ensfelder Lionel
+Author URI: www.google.fr
+Template:wp-bootstrap-starter-child
+Version:1.0
+*/
+
+
+/* MAIN CONTAINER */
+body{
+    background-color: #FEFEFE;
+    color: #a3a9b3;
+}
+.container{
+    width: 100%;
+}
+#content.site-content {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+/* SECTIONS BACKGROUND */
+.bg-1{
+    background-color: #f6f6f9;
+}
+.bg-2{
+    background-color: #f1f2f6;
+}
+.bg-3{
+    background-color: #dcdce0;
+}
+.bg-4{
+    background-color: #004749;
+}
+.bg-5{
+    background-color: #F2CFB3;
+}
+.gradient1{
+    background: rgb(0,108,110);
+    background: linear-gradient(126deg, rgba(0,108,110,1) 0%, rgba(246,246,249,1) 100%);
+}
+/* ICO & SIZE */
+.ico-s{
+    font-size: 1.3em;
+}
+.ico-m{
+    font-size: 2em;
+}
+.ico-l{
+    font-size: 3em;
+}
+/* FONT COLOR */
+
+.font-green{
+    color: #277f4c;
+}
+.font-pink{
+    color: #F2CFB3;
+}
+.font-light-grey{
+    color: #d1d1d1;
+}
+/* GRADIENT FONT */
+
+
+/* BORDER COLOR */
+.border-red{
+    border: 3px solid red;
+}
+
+/* FONT STYLE */
