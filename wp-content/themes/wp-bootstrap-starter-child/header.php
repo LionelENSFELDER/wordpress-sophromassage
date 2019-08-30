@@ -57,28 +57,29 @@
 
             </nav>
         </div>
-	</header><!-- #masthead -->
+    </header>
+    <!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div class="vh-50 border border-warning" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
+        <div class="vh-50 border-0 bg-4" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
             <div class="container p-5">
                 <div class="row">
                     <div class="col-6 text-left">
-                        <h2> <?php echo 'Sophrologie, Massages bien-être & sportifs'; ?> </h2>
-                        <p>
+                        <h2 class="font-weight-bold text-secondary"> <?php echo 'Sophrologie, Massages bien-être & sportifs'; ?> </h2>
+                        <p class="font-light-grey">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             In eu velit non ex consequat dictum nec nec felis. 
                             Nam gravida magna ac dui pellentesque, quis dictum lectus lacinia.
                         </p>
                         <div class="py-3">
-                            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                            <button type="button" class="btn btn-outline-secondary btn-main">Main</button>
+                            <button type="button" class="btn btn-outline-secondary btn-main-secondary">Secondary</button>
+                            <button type="button" class="btn btn-link btn-main-link px-0">Tous les tarifs</button>
                         </div>
                     </div>
                     <div class="col-6">
                         <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/image-34-1024x923.jpg" title="" alt=""/>
                     </div>
                 </div>
-                
-                
                 <!-- <a href="#content" class="page-scroller"><i class="fa fa-fw fa-angle-down"></i></a> -->
             </div>
         </div>
