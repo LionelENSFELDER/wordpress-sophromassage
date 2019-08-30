@@ -166,3 +166,15 @@ body{
 }
 
 /* FONT STYLE */
+
+
+/* TESTS */
+.img-100{
+    width: 100%;
+    height:100%;
+}
+
+/*  */
+.bg-cover{
+    background-size: 100% 100%;
+}

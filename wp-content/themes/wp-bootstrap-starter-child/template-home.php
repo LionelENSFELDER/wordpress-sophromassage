@@ -298,8 +298,6 @@ get_header();
     </div>
 </section> -->
 
-
-
 <section class="section w-100 p-5">
     <div class="container">
         <div class="d-flex align-items-stretch flex-wrap">
@@ -314,8 +312,8 @@ get_header();
                     ?>
                     <div class="col-4 mb-5" style="height:700px;">
                         <div class="card border-0 shadow h-100">
-                            <div class="card-header p-0">
-                                <img src="<?php the_post_thumbnail_url();?>" class="card-img-top" alt="<?php echo $post->post_title; ?>">
+                            <div class="card-header h-50 p-0" style="background-image: url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
+                                
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $post->post_title; ?></h5>
@@ -329,60 +327,62 @@ get_header();
                 }
             ?>
         </div>
+
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+
+
+                <?php
+                $args = array(
+                    "orderby" => "name",
+                    "category" => 2
+                );
+                $posts_array = get_posts($args);
+                foreach($posts_array as $post){
+                    $post_Id = $post->ID;
+                    ?>
+                    <div class="carousel-item active">
+                        <div class="col-6 mb-5" style="height:700px;">
+                            <div class="card border-0 shadow h-100">
+                                <div class="card-header h-50 p-0" style="background-image: url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
+                                    
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php echo $post->post_title; ?></h5>
+                                        <p class="card-text">
+                                            <?php echo wp_trim_excerpt(); ?>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+            ?>
+
+
+
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+
+
+
+
     </div>
 </section>
-
-
-
-
-<section>
-
-        <div class="card-deck">
-  <div class="card col-4">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card col-4">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card col-4">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card col-4">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card col-4">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-
-</section>
-
-
 
 <!-- Articles -->
 <section class="section w-100 p-5">
