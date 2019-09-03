@@ -60,7 +60,7 @@
     </header>
     <!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div class="vh-50 border-0 bg-4" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
+        <div class="vh-50 border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
             <div class="container p-5">
                 <div class="row">
                     <div class="col-6 text-left">
@@ -71,9 +71,12 @@
                             Nam gravida magna ac dui pellentesque, quis dictum lectus lacinia.
                         </p>
                         <div class="py-3">
-                            <button type="button" class="btn btn-outline-secondary btn-main">Main</button>
-                            <button type="button" class="btn btn-outline-secondary btn-main-secondary">Secondary</button>
-                            <button type="button" class="btn btn-link btn-main-link px-0">Tous les tarifs</button>
+                            <button type="button" class="btn btn-main-full">Main</button>
+                            <button type="button" class="btn btn-main-light">Secondary</button>
+                            <button type="button" class="btn btn-main-outlined">Secondary</button>
+                        </div>
+                        <div class="py-3 bg-4">
+                            <button type="button" class="btn btn-main-blanco">Main</button>
                         </div>
                     </div>
                     <div class="col-6">

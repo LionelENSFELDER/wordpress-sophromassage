@@ -29,5 +29,9 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<!-- plugin_test test -->
+<script type="text/javascript">$('#myModal').modal('show');</script>
+
 </body>
 </html>

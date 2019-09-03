@@ -17,6 +17,10 @@ Version:1.0
 
 */
 
+.polygon{
+    clip-path: polygon(0 1%, 0% 100%, 100% 0);
+}
+
 @font-face {
     font-family: fontawesome;
     src: url('/fonts/css/icofont.ttf');
@@ -40,60 +44,48 @@ Version:1.0
 }
 
 /* BUTTONS STYLES */
-
-
-.btn-main{
+.btn-main-full{
     border: solid 0px transparent;
     background-color: #004749;
     color: #ffffff;
+    transition-duration: 300ms;
 }
-.btn-main:hover{
-    border: solid 2px #004749;
+.btn-main-full:hover{
+    border: solid 1px #004749;
     background-color: #ffffff;
     color: #004749;
+    transform: scale(1.1);
 }
-.btn-main-secondary{
+.btn-main-light{
     border: solid 0px transparent;
-    background-color: #F2CFB3;
-    color: #ffffff;
-}
-.btn-main-secondary:hover{
-    background-color: #ffffff;
-    color: #F2CFB3;
-}
-.btn-main-link{
-    background-color: #ffffff;
-    color: #00c599;
-}
-.btn-main-link:hover{
-    background-color: #ffffff;
-    color: #00c599;
-    text-decoration: none;
-    transform: scale(1.2);
-}
-.btn-white{
-    border: solid 1px #ffffff;
     background-color: transparent;
-    color: #ffffff;
+    color: #004749;
+    transition-duration: 300ms;
 }
-.btn-white:hover{
-    border: solid 1px #ffffff;
+.btn-main-light:hover{
+    transform: scale(1.1);
+}
+.btn-main-outlined{
+    border: solid 1px #004749;
     background-color: transparent;
-    color: #ffffff;
+    color: #004749;
+    transition-duration: 300ms;
 }
-/* .btn-main-link::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+.btn-main-outlined:hover{
+    transform: scale(1.1);
 }
-.btn-main-link:after{
-    content: "\f4c2";
-    font-family: "fontawesome";
-    font-weight: normal;
-    font-style: normal;
-} */
+.btn-main-blanco{
+    border: solid 0px transparent;
+    background-color: #ffffff;
+    color: #004749;
+    transition-duration: 300ms;
+}
+.btn-main-blanco:hover{
+    transform: scale(1.1);
+}
+
+
+
 
 /* MAIN CONTAINER */
 body{
@@ -130,11 +122,32 @@ body{
     background: rgb(0,108,110);
     background-image: linear-gradient(to left, #004749, #005d5c, #00746d, #008c7c, #00a48a, #40b088, #62bd86, #82c884, #adc982, #cdc98b, #e4cb9d, #f2cfb3);
 }
-/* SECTION BACKGROUND IMAGES */
-.bg-img-1{
-    height: 500px;
-    background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/08/gabriel-santos-VVt1jFn7Af4-unsplash.jpg');
-    background-size: cover;
+/* PARALLAX */
+.parallax {
+  /* The image used */
+  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg');
+
+  /* Set a specific height */
+  min-height: 200px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-2 {
+  /* The image used */
+  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/08/eriks-abzinovs-ngdpTQouVso-unsplash.jpg');
+
+  /* Set a specific height */
+  min-height: 200px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* ICO & SIZE */
 .ico-s{
@@ -147,7 +160,6 @@ body{
     font-size: 3em;
 }
 /* FONT COLOR */
-
 .font-green{
     color: #277f4c;
 }
@@ -157,24 +169,7 @@ body{
 .font-light-grey{
     color: #c5c5c5;
 }
-/* GRADIENT FONT */
-
-
 /* BORDER COLOR */
-.border-red{
-    border: 3px solid red;
-}
-
-/* FONT STYLE */
-
-
-/* TESTS */
-.img-100{
-    width: 100%;
-    height:100%;
-}
-
-/*  */
-.bg-cover{
-    background-size: 100% 100%;
+.border-main{
+    border: 1px solid #277f4c;
 }

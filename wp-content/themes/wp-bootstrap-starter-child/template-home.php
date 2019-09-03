@@ -57,7 +57,7 @@ get_header();
                         </div>
                         <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link btn-main-link px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus...</button>
+                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus...</button>
                     </div>
 
                     <!-- Modal -->
@@ -98,7 +98,7 @@ get_header();
                         </div>
                         <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link btn-main-link px-0" data-toggle="modal" data-target="#define_massage">En savoir plus...</button>
+                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_massage">En savoir plus...</button>
                     </div>
 
                     <!-- Modal -->
@@ -141,7 +141,7 @@ get_header();
                         </div>
                         <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link btn-main-link px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus...</button>
+                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus...</button>
 
                         <!-- Modal -->
                         <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -214,174 +214,10 @@ get_header();
 
 </section>
 
-<!-- Tarifs -->
-<section class="section w-100 p-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
-                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
-                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
-                            rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
-                        </p>
-                        <p class="">
-                            <div class="mb-3">
-                                <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec sapien non ncidunt.</span>
-                            </div>
-                            <div class="mb-3">
-                                <i class="fas fa-heartbeat mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec saphatincidunt.</span>
-                            </div>
-                            <div class="mb-3">
-                                <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
-                            </div>
-                        </p>
-                        <button type="button" class="btn btn-link btn-main-link px-0">Tous les tarifs...</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-7">
-                <!-- pricing card template 1-->
-                <div class="row card-deck">
-                    <div class="card bg-4 text-white text-center rounded border-0 shadow">
-                        <div class="card-header text-white  border-0">
-                            <h3 class="card-title text-white">Sophrologie</h3>
-                            <span class="">A partir de </span>
-                            <h1 class="text-white card-title font-weight-bold">12€</h1>
-                        </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block">Séance individuelle</span>
-                                <span class="mb-3 d-block">Séance collective</span>
-                                <span class="d-block">Professionnel, milieux sportif et associatif</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-white">Tous les tarifs</a>
-                        </div>
-                    </div>
-        
-                    <!-- pricing card template 2-->
-                    <div class="card text-center rounded shadow">
-                        <div class="card-header bg-transparent  border-0">
-                            <h3 class="card-title">Massages</h3>
-                            <span class="">A partir de </span>
-                            <h1 class="card-title font-weight-bold">15€</h1>
-                        </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block">Amma Assis</span>
-                                <span class="mb-3 d-block">Relaxation coréenne</span>
-                                <span class="mb-3 d-block">Massage californien</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-main">Tous les tarifs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Avis clients -->
-<!-- <section class="section w-100 p-5">
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
-</section> -->
-
-<section class="section w-100 p-5">
-    <div class="container">
-
-        <div class="d-flex align-items-stretch flex-wrap">
-            <?php
-                $args = array(
-                    'orderby' => 'post_date',
-                    'category' => 2,
-                    'posts_per_page' => 3
-                );
-                $posts_array = get_posts($args);
-                foreach($posts_array as $post){
-                    $post_Id = $post->ID;
-                    ?>
-                    <div class="col-4 mb-5" style="height:600px;">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-header h-50 p-0" style="background-image: url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
-                                
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo $post->post_title; ?></h5>
-                                    <p class="card-text">
-                                        <?php echo wp_trim_excerpt(); ?>
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                }
-            ?>
-        </div>
-
-    </div>
-</section>
-
-<!-- Articles -->
-<section class="section w-100 p-5">
-    <div class="container">
-        <div class="row">
-            <!-- COL -->
-            <div class="col-sm">
-                <!-- CARD -->
-                <div class="card">
-                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/generic.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Article 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-link">Go somewhere</a>
-                    </div>
-                </div>
-                <!-- CARD END-->
-            </div>
-            <!-- COL -->
-            <div class="col-sm">
-            <!-- CARD -->
-            <div class="card">
-                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/generic.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Article 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-link">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <!-- COL -->
-            <div class="col-sm">
-            <!-- CARD -->
-            <div class="card">
-                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/generic.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Article 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-link">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
-
-<!-- #full-width section template -->
-<section class="section w-100 p-5 bg-4">
+<!-- bandeau chiffres -->
+<section class="section w-100 p-5 parallax-2">
     <div class="container">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -433,7 +269,7 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-dove fa-3x"></i>
+                            <i class="fas fa-toilet-paper fa-3x"></i>
                             </div>
                             <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
                         </div>
@@ -447,48 +283,196 @@ get_header();
 </section>
 <!-- END full-width section template -->
 
-<!-- full-width section template -->
-<section class="section w-100 p-5">
+
+
+
+<!-- Séance sur rdv -->
+<section class="w-100 p-5">
+
     <div class="container">
-        <div class="row card-group">
-            <!-- COL -->
-            <div class="col-6">
-                <!-- CARD -->
-                <div class="card">
-                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/generic.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-outline-dark">Button</button>
-                        <button type="button" class="btn btn-outline-dark">Light</button>
-                    </div>
-                </div>
-                <!-- END CARD -->
-            </div>
-            <!-- END COL -->
-            <!-- COL -->
-            <div class="col-6">
-            <!-- CARD -->
-            <div class="card">
-                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/generic.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <button type="button" class="btn btn-outline-dark">Button</button>
-                    <button type="button" class="btn btn-outline-dark">Light</button>
+
+        <div class="card-group shadow p-5 rounded">
+
+            <div class="card m-0 border-0">
+                <div class="card-body">
+                    <h1 class="font-weight-bold text-secondary">Séance sur rendez-vous</h1>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur a velit id magna pulvinar mollis. 
+                        Phasellus nec turpis id eros hendrerit pulvinar. 
+                        Nullam pretium enim eget facilisis scelerisque. 
+                        Aliquam vitae mollis est, quis vulputate leo. 
+                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
+                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
+                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
+                        malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
+                    </p>
                 </div>
             </div>
-            <!-- END CARD -->
+
+            <div class="card m-0 col-md-12 border-0 bg-transparent d-flex justify-content-center align-items-center">
+                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg" class="rounded" alt="...">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- Gros titre -->
+<section class="section w-100 p-5 text-white parallax-2">
+<!-- CONTAINER -->
+    <div class="container p-5">
+        <div class="row justify-content-center p-5">
+            <!-- COL -->
+            <div class="text-center">
+                <h1 class="text-white font-weight-bold">ghfdtyhfghfghfghgfh</h1>
+                <p class="text-center">
+                    consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
+                    dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
+                    rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
+                </p>
+                <button type="button" class="btn btn-lg btn-main-blanco">Main</button>
+            </div>
             <!-- END COL -->
         </div>
-        <!-- END ROW -->
     </div>
-    <!-- END CONTAINER -->
 </section>
-<!-- END SECTION -->
 
-<!-- full-width section template -->
-<section class="section w-100 p-5 bg-4 text-white">
+
+
+
+<!-- Tarifs -->
+<section class="section w-100 p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
+                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
+                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
+                            rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
+                        </p>
+                        <p class="">
+                            <div class="mb-3">
+                                <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Donec nec sapien non ncidunt.</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-heartbeat mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Donec nec saphatincidunt.</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <!-- pricing card template 1-->
+                <div class="row card-deck">
+                    <div class="card bg-4 text-white text-center rounded border-0 shadow">
+                        <div class="card-header text-white  border-0">
+                            <h3 class="card-title text-white">Sophrologie</h3>
+                            <span class="">A partir de </span>
+                            <h1 class="text-white card-title font-weight-bold">12€</h1>
+                        </div>
+                        <div class="card-body py-0">
+                            <p class="card-text my-5">
+                                <span class="mb-3 d-block">Séance individuelle</span>
+                                <span class="mb-3 d-block">Séance collective</span>
+                                <span class="d-block">Professionnel, milieux sportif et associatif</span>
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-main-blanco">Tous les tarifs</a>
+                        </div>
+                    </div>
+        
+                    <!-- pricing card template 2-->
+                    <div class="card text-center rounded shadow">
+                        <div class="card-header bg-transparent  border-0">
+                            <h3 class="card-title">Massages</h3>
+                            <span class="">A partir de </span>
+                            <h1 class="card-title font-weight-bold">15€</h1>
+                        </div>
+                        <div class="card-body py-0">
+                            <p class="card-text my-5">
+                                <span class="mb-3 d-block">Amma Assis</span>
+                                <span class="mb-3 d-block">Relaxation coréenne</span>
+                                <span class="mb-3 d-block">Massage californien</span>
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-main-full">Tous les tarifs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Avis clients -->
+<!-- <section class="section w-100 p-5">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section> -->
+
+<!-- Articles -->
+<section class="section w-100 p-5">
+    <div class="container">
+        <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles</h1>
+
+        <div class="d-flex align-items-stretch flex-wrap">
+            <?php
+                $args = array(
+                    'orderby' => 'post_date',
+                    'category' => 2,
+                    'posts_per_page' => 3
+                );
+                $posts_array = get_posts($args);
+                foreach($posts_array as $post){
+                    $post_Id = $post->ID;
+                    ?>
+                    <div class="col-4 mb-5" style="height:650px;">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-header h-50 p-0" style="background-image: url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
+                                
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title font-hard-grey"><?php echo $post->post_title; ?></h5>
+                                    <p class="card-text">
+                                        <?php echo wp_trim_excerpt(); ?>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+            ?>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="button" class="btn btn-main-full">Plus d'articles</button>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Se faire rappeler -->
+<section class="section w-100 p-5 text-white bg-4">
 <!-- CONTAINER -->
     <div class="container">
         <div class="row">
@@ -503,7 +487,7 @@ get_header();
             <div class="col-6">
             <form class="form-inline">
                 <div class="form-group mx-sm-3 mb-2">
-                    <input type="email" class="form-control" id="" placeholder="Ton adresse mail">
+                    <input class="form-control" type="text" placeholder="Ton adresse mail">
                 </div>
                 <button type="submit" class="btn btn-primary mb-2">Envoyer !</button>
             </form>
@@ -526,30 +510,30 @@ get_header();
                     <h3 class="font-weight-bold mb-4">Formulaire</h3>
                         <form>
                             <div class="row mb-4">
-                                <div class="col input-group-lg">
+                                <div class="col">
                                     <input type="text" class="form-control" placeholder="Prénom">
                                 </div>
-                                <div class="col input-group-lg">
+                                <div class="col">
                                     <input type="text" class="form-control" placeholder="Nom">
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col input-group-lg">
+                                <div class="col">
                                     <input type="tel" class="form-control" placeholder="Téléphone">
                                 </div>
-                                <div class="col input-group-lg">
+                                <div class="col">
                                     <input type="email" class="form-control" placeholder="Adresse mail">
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col input-group-lg">
+                                <div class="col">
                                 <select class="custom-select" id="inputGroupSelect01">
                                     <option selected>Status</option>
                                     <option value="1">Particulier</option>
                                     <option value="2">Professionnel</option>
                                 </select>
                                 </div>
-                                <div class="col input-group-lg">
+                                <div class="col">
                                 <select class="custom-select" id="inputGroupSelect01">
                                     <option selected>Object</option>
                                     <option value="1">Demande d'informations</option>
@@ -560,13 +544,13 @@ get_header();
                                 </select>
                                 </div>
                             </div>
-                            <div class="input-group input-group-lg mb-4">
+                            <div class="input-group mb-4">
                                 <textarea type="text" class="form-control" placeholder="Message"></textarea>
                             </div>
                             <div class="input-group mb-4 alert alert-secondary" role="alert">
                                 <span class="">reCAPTCHA</span>
                             </div>
-                            <button type="button" class="btn btn-primary btn-lg">Envoyer !</button>
+                            <button type="button" class="btn btn-primary">Envoyer !</button>
                         </form>
                     </div>
                 </div>
@@ -640,30 +624,6 @@ get_header();
                     </div>
                     <!-- end Modal -->
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END SECTION -->
-
-<!-- Réduction -->
-<section class="section w-100 gradient1">
-    <!-- CONTAINER -->
-    <div class="container">
-        <div class="row align-items-center" style="height: 500px;">
-            <div class="col-6 d-flex flex-column justify-content-center">
-                <!-- card -->
-                <div class="card mx-auto my-auto shadow">
-                    <div class="card-body">
-                        <i class="fas fa-piggy-bank ico-l font-light-grey mb-3"></i>
-                        <h1 class="card-title font-green">15€</h1>
-                        <span>de reduction</span>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <!-- Button -->
-                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-                    </div>
-                </div>
-                <!-- card end -->
             </div>
         </div>
     </div>
