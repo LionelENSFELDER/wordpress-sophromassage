@@ -84,9 +84,6 @@ Version:1.0
     transform: scale(1.1);
 }
 
-
-
-
 /* MAIN CONTAINER */
 body{
     background-color: #FEFEFE;
@@ -98,6 +95,9 @@ body{
 #content.site-content {
   padding-bottom: 0;
   padding-top: 0;
+}
+.feature-row{
+    height: 500px;
 }
 /* SECTIONS BACKGROUND */
 .bg-1{
@@ -172,4 +172,9 @@ body{
 /* BORDER COLOR */
 .border-main{
     border: 1px solid #277f4c;
+}
+
+/* HEADER */
+#page-sub-header{
+    padding: 0px;
 }

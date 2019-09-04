@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+	<header id="masthead" class="site-header navbar-static-top shadow-none <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
         <div class="container">
             <nav class="navbar navbar-expand-xl p-0 bg-transparent">
                 <div class="navbar-brand">
@@ -60,31 +60,30 @@
     </header>
     <!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div class="vh-50 border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <div class="container p-5">
-                <div class="row">
-                    <div class="col-6 text-left">
-                        <h2 class="font-weight-bold text-secondary"> <?php echo 'Sophrologie, Massages bien-être & sportifs'; ?> </h2>
-                        <p class="font-light-grey">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            In eu velit non ex consequat dictum nec nec felis. 
-                            Nam gravida magna ac dui pellentesque, quis dictum lectus lacinia.
-                        </p>
-                        <div class="py-3">
-                            <button type="button" class="btn btn-main-full">Main</button>
-                            <button type="button" class="btn btn-main-light">Secondary</button>
-                            <button type="button" class="btn btn-main-outlined">Secondary</button>
+        <div class="border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
+            <section class="section w-100 p-5 bg-4">
+                <div class="container">
+                    <div class="card-group bg-transparent">
+                        <div class="card m-0 border-0 bg-transparent">
+                            <div class="card-body">
+                                <h1 class="font-weight-bold font-hard-grey">Feature head</h1>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Curabitur a velit id magna pulvinar mollis. 
+                                    Phasellus nec turpis id eros hendrerit pulvinar. 
+                                    Nullam pretium enim eget facilisis scelerisque.
+                                </p>
+                            </div>
                         </div>
-                        <div class="py-3 bg-4">
-                            <button type="button" class="btn btn-main-blanco">Main</button>
+
+                        <div class="card m-0 col-md-12 border-0 rounded bg-transparent">
+                            
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/image-34-1024x923.jpg" title="" alt=""/>
+
                     </div>
                 </div>
-                <!-- <a href="#content" class="page-scroller"><i class="fa fa-fw fa-angle-down"></i></a> -->
-            </div>
+            </section>
+
         </div>
     <?php endif; ?>
 	<div id="content" class="site-content">
