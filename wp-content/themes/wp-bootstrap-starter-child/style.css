@@ -100,6 +100,9 @@ body{
     height: 500px;
 }
 /* SECTIONS BACKGROUND */
+.numbers{
+    background-color: #a3a9b3;
+}
 .bg-1{
     background-color: #f6f6f9;
 }
@@ -117,10 +120,6 @@ body{
 }
 .bg-6{
     background-color: #00c599;
-}
-.gradient1{
-    background: rgb(0,108,110);
-    background-image: linear-gradient(to left, #004749, #005d5c, #00746d, #008c7c, #00a48a, #40b088, #62bd86, #82c884, #adc982, #cdc98b, #e4cb9d, #f2cfb3);
 }
 /* PARALLAX */
 .parallax {
@@ -175,6 +174,23 @@ body{
 }
 
 /* HEADER */
+.header-bg{
+    background-image: linear-gradient(to bottom, #004749, #3f6a5a, #788c6d, #b5ae89, #f2cfb3);
+}
 #page-sub-header{
     padding: 0px;
+}
+/* NAVBAR */
+header#masthead {
+    background-color: #ffffff;;
+    color: #004749;
+}
+.navbar-brand > a {
+    color: #004749;
+}
+.navbar-bg{
+    background-color: #ffffff;
+}
+.navbar-bg.scrolled{
+    background-color: #004749;
 }

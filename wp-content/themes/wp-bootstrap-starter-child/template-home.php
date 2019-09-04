@@ -216,9 +216,85 @@ get_header();
 
 
 
-<!-- bandeau chiffres -->
-<section class="section w-100 p-5 parallax-2">
+<!-- Tarifs -->
+<section class="section w-100 p-5">
     <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
+                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
+                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
+                            rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
+                        </p>
+                        <p class="">
+                            <div class="mb-3">
+                                <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Donec nec sapien non ncidunt.</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-heartbeat mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Donec nec saphatincidunt.</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <!-- pricing card template 1-->
+                <div class="row card-deck">
+                    <div class="card bg-4 py-3 text-white text-center rounded border-0 shadow">
+                        <div class="card-header text-white border-0">
+                            <h3 class="card-title text-white">Sophrologie</h3>
+                            <span class="">A partir de </span>
+                            <h1 class="text-white card-title font-weight-bold">12€</h1>
+                        </div>
+                        <div class="card-body py-0">
+                            <p class="card-text my-5">
+                                <span class="mb-3 d-block">Séance individuelle</span>
+                                <span class="mb-3 d-block">Séance collective</span>
+                                <span class="d-block">Professionnel, milieux sportif et associatif</span>
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-main-blanco">Tous les tarifs</a>
+                        </div>
+                    </div>
+        
+                    <!-- pricing card template 2-->
+                    <div class="card py-3 text-center rounded border-0 shadow">
+                        <div class="card-header bg-transparent border-0">
+                            <h3 class="card-title">Massages</h3>
+                            <span class="">A partir de </span>
+                            <h1 class="card-title font-weight-bold">15€</h1>
+                        </div>
+                        <div class="card-body py-0">
+                            <p class="card-text my-5">
+                                <span class="mb-3 d-block">Amma Assis</span>
+                                <span class="mb-3 d-block">Relaxation coréenne</span>
+                                <span class="mb-3 d-block">Massage californien</span>
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-main-full">Tous les tarifs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- bandeau chiffres -->
+<section class="section w-100 p-5 numbers">
+    <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
                 <!-- COL -->
@@ -323,9 +399,10 @@ get_header();
 
 
 
+
 <!-- Gros titre -->
 <section class="section w-100 p-5 text-white parallax-2">
-<!-- CONTAINER -->
+    <!-- CONTAINER -->
     <div class="container p-5">
         <div class="row justify-content-center p-5">
             <!-- COL -->
@@ -344,81 +421,6 @@ get_header();
 </section>
 
 
-
-
-<!-- Tarifs -->
-<section class="section w-100 p-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
-                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
-                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
-                            rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
-                        </p>
-                        <p class="">
-                            <div class="mb-3">
-                                <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec sapien non ncidunt.</span>
-                            </div>
-                            <div class="mb-3">
-                                <i class="fas fa-heartbeat mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec saphatincidunt.</span>
-                            </div>
-                            <div class="mb-3">
-                                <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
-                            </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-7">
-                <!-- pricing card template 1-->
-                <div class="row card-deck">
-                    <div class="card bg-4 text-white text-center rounded border-0 shadow">
-                        <div class="card-header text-white  border-0">
-                            <h3 class="card-title text-white">Sophrologie</h3>
-                            <span class="">A partir de </span>
-                            <h1 class="text-white card-title font-weight-bold">12€</h1>
-                        </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block">Séance individuelle</span>
-                                <span class="mb-3 d-block">Séance collective</span>
-                                <span class="d-block">Professionnel, milieux sportif et associatif</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-main-blanco">Tous les tarifs</a>
-                        </div>
-                    </div>
-        
-                    <!-- pricing card template 2-->
-                    <div class="card text-center rounded shadow">
-                        <div class="card-header bg-transparent  border-0">
-                            <h3 class="card-title">Massages</h3>
-                            <span class="">A partir de </span>
-                            <h1 class="card-title font-weight-bold">15€</h1>
-                        </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block">Amma Assis</span>
-                                <span class="mb-3 d-block">Relaxation coréenne</span>
-                                <span class="mb-3 d-block">Massage californien</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-main-full">Tous les tarifs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Avis clients -->
 <!-- <section class="section w-100 p-5">
@@ -471,32 +473,7 @@ get_header();
 
 
 
-<!-- Se faire rappeler -->
-<section class="section w-100 p-5 text-white bg-4">
-<!-- CONTAINER -->
-    <div class="container">
-        <div class="row">
-            <!-- COL -->
-            <div class="col-6">
-            <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            </blockquote>
-            </div>
-            <!-- END COL -->
-            <!-- COL -->
-            <div class="col-6">
-            <form class="form-inline">
-                <div class="form-group mx-sm-3 mb-2">
-                    <input class="form-control" type="text" placeholder="Ton adresse mail">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Envoyer !</button>
-            </form>
-            </div>
-            <!-- END COL -->
-        </div>
-    </div>
-</section>
-<!-- END SECTION -->
+
 
 <!-- full-width section template -->
 <section class="section w-100 p-5">

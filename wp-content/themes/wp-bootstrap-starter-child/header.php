@@ -25,8 +25,8 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top shadow-none <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container">
-            <nav class="navbar navbar-expand-xl p-0 bg-transparent">
+        <div class="container py-3">
+            <nav class="navbar navbar-expand-xl p-0">
                 <div class="navbar-brand">
                     <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
                         <a href="<?php echo esc_url( home_url( '/' )); ?>">
@@ -61,18 +61,19 @@
     <!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div class="border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <section class="section w-100 p-5 bg-4">
-                <div class="container">
+            <section class="section w-100 p-5">
+                <div class="container py-5">
                     <div class="card-group bg-transparent">
                         <div class="card m-0 border-0 bg-transparent">
-                            <div class="card-body">
-                                <h1 class="font-weight-bold font-hard-grey">Feature head</h1>
+                            <div class="card-body p-5 my-5 text-right">
+                                <h1 class="font-weight-bold font-white">Feature head</h1>
                                 <p class="card-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Curabitur a velit id magna pulvinar mollis. 
                                     Phasellus nec turpis id eros hendrerit pulvinar. 
                                     Nullam pretium enim eget facilisis scelerisque.
                                 </p>
+                                <button type="button" class="btn btn-main-full mt-3">Action !</button>
                             </div>
                         </div>
 
