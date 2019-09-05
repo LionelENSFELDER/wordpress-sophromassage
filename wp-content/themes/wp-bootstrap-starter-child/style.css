@@ -15,12 +15,22 @@ Version:1.0
 #F2CFB3 : light beige
 #c5c5c5 : light-grey
 
+
 */
-
-.polygon{
-    clip-path: polygon(0 1%, 0% 100%, 100% 0);
+/* SHAPES */
+.polygon-header{
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
 }
-
+.polygon-numbers-section{
+    clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%);
+}
+.polygon-contact-card{
+    clip-path: polygon(0 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+}
+.polygon-heptagon{
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+/* FONT-FACE */
 @font-face {
     font-family: fontawesome;
     src: url('/fonts/css/icofont.ttf');
@@ -42,6 +52,15 @@ Version:1.0
 .font-light-grey{
     color: #a3a9b3;
 }
+.font-white{
+    color: #ffffff;
+}
+.gradient-text {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#004749, #00c599);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 /* BUTTONS STYLES */
 .btn-main-full{
@@ -99,9 +118,12 @@ body{
 .feature-row{
     height: 500px;
 }
-/* SECTIONS BACKGROUND */
-.numbers{
-    background-color: #a3a9b3;
+/* BACKGROUND COLORS*/
+.bg-light-grey{
+    background-color: #F1F1F1;
+}
+.bg-green{
+    background-color: #004749;
 }
 .bg-1{
     background-color: #f6f6f9;
@@ -193,4 +215,19 @@ header#masthead {
 }
 .navbar-bg.scrolled{
     background-color: #004749;
+}
+/* BLUR EFFECT */
+.blur-soft{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+/* TESTIMONIAL */
+.client-img{
+    width: 200px;
+    height: 200px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    /* filter: invert(100%); */
+    color: red;
 }

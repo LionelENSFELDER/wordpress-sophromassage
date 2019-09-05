@@ -293,7 +293,7 @@ get_header();
 
 
 <!-- bandeau chiffres -->
-<section class="section w-100 p-5 numbers">
+<section class="section w-100 p-5 bg-light-grey polygon-numbers-section">
     <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -431,47 +431,6 @@ get_header();
     </div>
 </section> -->
 
-<!-- Articles -->
-<section class="section w-100 p-5">
-    <div class="container">
-        <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles</h1>
-
-        <div class="d-flex align-items-stretch flex-wrap">
-            <?php
-                $args = array(
-                    'orderby' => 'post_date',
-                    'category' => 2,
-                    'posts_per_page' => 3
-                );
-                $posts_array = get_posts($args);
-                foreach($posts_array as $post){
-                    $post_Id = $post->ID;
-                    ?>
-                    <div class="col-4 mb-5" style="height:650px;">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-header h-50 p-0" style="background-image: url('<?php the_post_thumbnail_url();?>'); background-size:cover;">
-                                
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title font-hard-grey"><?php echo $post->post_title; ?></h5>
-                                    <p class="card-text">
-                                        <?php echo wp_trim_excerpt(); ?>
-                                    </p>
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                }
-            ?>
-        </div>
-
-        <div class="col-12 text-center">
-            <button type="button" class="btn btn-main-full">Plus d'articles</button>
-        </div>
-    </div>
-</section>
-
-
 
 
 
@@ -494,11 +453,11 @@ get_header();
                     <div class="col-4 mb-5" style="height:500px;">
                         <div class="card border-0 shadow h-100">
 
-                            <img class="card-img h-100" src="<?php the_post_thumbnail_url();?>" title="" alt="">
+                            <img class="card-img h-100 blur-soft" src="<?php the_post_thumbnail_url();?>" title="" alt="">
 
                             <div class="card-img-overlay d-flex flex-column justify-content-end">
                                 <div class="d-flex flex-column justify-content-center">
-                                    <h2 class="text-white"><?php echo $post->post_title; ?></h2>
+                                    <h2 class="text-white font-weight-bold"><?php echo $post->post_title; ?></h2>
                                     <div class="">
                                         <span class="text-white">Auteur: <?php echo $post->post_author; ?></span>
                                         <br />
@@ -524,17 +483,80 @@ get_header();
 
 
 
-
-<!-- full-width section template -->
+<!-- FORMULAIRE NEW -->
 <section class="section w-100 p-5">
     <!-- CONTAINER -->
     <div class="container">
-        <div class="card mb-3 border-0 rounded shadow">
-            <div class="row no-gutters">
-                <!-- col 8 -->
-                <div class="col-md-8">
+        <div class="row">
+            <div class="col-6">
+                <div class="card polygon-contact-card bg-green">
                     <div class="card-body">
-                    <h3 class="font-weight-bold mb-4">Formulaire</h3>
+                        <h3 class="text-light font-weight-bold mb-4">Contact</h3>
+                        <div class="mb-4 text-light">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Ut efficitur pharetra sapien, at consequat massa lacinia nec. 
+                                Nunc molestie egestas vestibulum.
+                            </p>
+                        </div>
+                        <div class="mb-4 text-light">
+                            <span class="d-block">Eléonore Hottou</span>
+                            <span class="d-block">06 46 81 94 31</span>
+                            <span class="d-block">hello@sophromassage.fr</span>
+                            <span class="d-block">Les Marjolaines bât. D,<br>296 av. louis Imbert,<br> 83160 La Valette-du-Var</span>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <div class="mb-5">
+                            <button class="btn btn-main-blanco" type="button" data-toggle="modal" data-target="#heures-ouverture">Heures d'ouverture</button>
+                            <button class="btn font-white" type="button">Itinéraire</button>
+                        </div>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="heures-ouverture" tabindex="-1" role="dialog" aria-labelledby="heures-ouverture" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="heures-ouverture">Heures d'ouverture</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-dark">
+                                <p>
+                                    Lundi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                    <br>
+                                    Mardi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                    <br>
+                                    Mercredi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                    <br>
+                                    Jeudi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                    <br>
+                                    Vendredi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                    <br>
+                                    Samedi: 10h00 - 20h00.
+                                    <br>
+                                    Dimanche: Fermé.
+                                </p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Modal -->
+
+
+                        <!-- icons -->
+                        <div class="mb-3 font-white">
+                            <a href="" title="" alt=""><i class="fab fa-facebook-square mr-2 ico-m font-white"></i></a>
+                            <a href="" title="" alt=""><i class="fab fa-medium mr-2 ico-m font-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- COL-6 -->
+            <div class="col-6">
+                
+
                         <form>
                             <div class="row mb-4">
                                 <div class="col">
@@ -577,85 +599,65 @@ get_header();
                             <div class="input-group mb-4 alert alert-secondary" role="alert">
                                 <span class="">reCAPTCHA</span>
                             </div>
-                            <button type="button" class="btn btn-primary">Envoyer !</button>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <i class="fas fa-exclamation-circle"> Vos informations ne seront pas vendues à des tiers</i>
+                                </div>
+                                <div class="col">
+                                    <button type="button" class="btn btn-main-full w-100">Envoyer !</button>
+                                </div>
+                            </div>
                         </form>
-                    </div>
-                </div>
-                <!-- col 4 -->
-                <div class="col-md-4 bg-4 text-white p-4 rounded-right">
-                    <h3 class="text-white font-weight-bold mb-4">Contact</h3>
 
-                    <!-- <div class="card mb-3 text-dark">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                            <i class="fas fa-hand-holding-heart mr-2 ico-l text-dark"></i>
-                            </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Eléonore Hottou</h5>
-                            </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <div class="mb-4">
-                        <span class=""><i class="fas fa-hand-holding-heart mr-2 ico-s text-white"></i>Eléonore Hottou</span>
-                    </div>
-                    <div class="mb-4">
-                        <span class=""><i class="fas fa-mobile-alt mr-2 ico-s text-white"></i>06 46 81 94 31</span>
-                    </div>
-                    <div class="mb-4">
-                        <span class=""><i class="fas fa-paper-plane mr-2 ico-s text-white"></i>hello@sophromassage.fr</span>
-                    </div>
-                    <div class="mb-5">
-                        <span class=""><i class="fas fa-map-signs mr-2 ico-s text-white"></i>Les Marjolaines bât. D,<br>296 av. louis Imbert,<br> 83160 La Valette-du-Var</span>
-                    </div>
-                    <!-- Button trigger modal -->
-                    <div class="mb-5">
-                        <button class="btn btn-link font-weight-bold p-0" type="button" data-toggle="modal" data-target="#heures-ouverture">Heures d'ouverture</button>
-                    </div>
-                    <!-- icons -->
-                    <div class="mb-3">
-                        <a href="" title="" alt=""><i class="fab fa-facebook-square mr-2 ico-s font-light-grey"></i></a>
-                        <a href="" title="" alt=""><i class="fab fa-medium mr-2 ico-s font-light-grey"></i></a>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="heures-ouverture" tabindex="-1" role="dialog" aria-labelledby="heures-ouverture" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="heures-ouverture">Heures d'ouverture</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body text-dark">
-                            <p>
-                                Lundi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                <br>
-                                Mardi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                <br>
-                                Mercredi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                <br>
-                                Jeudi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                <br>
-                                Vendredi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                <br>
-                                Samedi: 10h00 - 20h00.
-                                <br>
-                                Dimanche: Fermé.
-                            </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end Modal -->
-                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- END SECTION -->
+
+
+
+<!-- AVIS CLIENTS -->
+<section class="">
+    <div class="container">
+        <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients</h1>
+        <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
+            <div class="carousel-inner">
+                <!-- CARD -->
+                <div class="carousel-item active" data-interval="10000">
+                    <div class="card w-100 border-0">
+                        <div class="card-body text-center">
+                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="..." class="rounded-circle client-img">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD -->
+                <div class="carousel-item" data-interval="10000">
+                    <div class="card w-100 border-0">
+                        <div class="card-body text-center">
+                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="..." class="rounded-circle client-img">
+                            <h5 class="card-title">Card title 2</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
+                <span><i class="fas fa-arrow-alt-circle-left ico-l font-hard-green"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
+                <span><i class="fas fa-arrow-alt-circle-right ico-l font-hard-green"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
 
 <?php 
 get_footer();

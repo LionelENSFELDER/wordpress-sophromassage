@@ -61,26 +61,19 @@
     <!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div class="border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <section class="section w-100 p-5">
+            <section class="section w-100 p-5 bg-light-grey">
                 <div class="container py-5">
-                    <div class="card-group bg-transparent">
-                        <div class="card m-0 border-0 bg-transparent">
-                            <div class="card-body p-5 my-5 text-right">
-                                <h1 class="font-weight-bold font-white">Feature head</h1>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Curabitur a velit id magna pulvinar mollis. 
-                                    Phasellus nec turpis id eros hendrerit pulvinar. 
-                                    Nullam pretium enim eget facilisis scelerisque.
-                                </p>
-                                <button type="button" class="btn btn-main-full mt-3">Action !</button>
-                            </div>
-                        </div>
-
-                        <div class="card m-0 col-md-12 border-0 rounded bg-transparent">
+                    <div class="row">
+                        <div class="col-6">
                             
                         </div>
-
+                        <div class="col-6">
+                            <div class="card p-5 polygon-contact-card bg-transparent border-main">
+                                <div class="card-body p-5">
+                                    This is some text within a card body.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
