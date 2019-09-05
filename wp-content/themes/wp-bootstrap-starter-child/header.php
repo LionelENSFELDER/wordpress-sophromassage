@@ -24,62 +24,63 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-	<header id="masthead" class="site-header navbar-static-top shadow-none <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container py-3">
-            <nav class="navbar navbar-expand-xl p-0">
-                <div class="navbar-brand">
-                    <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
-                        <a href="<?php echo esc_url( home_url( '/' )); ?>">
-                            <img src="<?php echo esc_attr(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
-                        </a>
-                    <?php else : ?>
-                        <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
-                    <?php endif; ?>
+    <section id="master-header" class="w-100 bg-light-grey" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
+        <header id="masthead" class="site-header navbar-static-top shadow-none <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+            <div class="container py-3">
+                <nav class="navbar navbar-expand-xl p-0">
+                    <div class="navbar-brand">
+                        <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
+                            <a href="<?php echo esc_url( home_url( '/' )); ?>">
+                                <img src="<?php echo esc_attr(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
+                            </a>
+                        <?php else : ?>
+                            <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
+                        <?php endif; ?>
 
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <?php
-                wp_nav_menu(array(
-                'theme_location'    => 'primary',
-                'container'       => 'div',
-                'container_id'    => 'main-nav',
-                'container_class' => 'collapse navbar-collapse justify-content-end',
-                'menu_id'         => false,
-                'menu_class'      => 'navbar-nav',
-                'depth'           => 3,
-                'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                'walker'          => new wp_bootstrap_navwalker()
-                ));
-                ?>
+                    <?php
+                    wp_nav_menu(array(
+                    'theme_location'    => 'primary',
+                    'container'       => 'div',
+                    'container_id'    => 'main-nav',
+                    'container_class' => 'collapse navbar-collapse justify-content-end',
+                    'menu_id'         => false,
+                    'menu_class'      => 'navbar-nav',
+                    'depth'           => 3,
+                    'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                    'walker'          => new wp_bootstrap_navwalker()
+                    ));
+                    ?>
 
-            </nav>
-        </div>
-    </header>
-    <!-- #masthead -->
-    <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div class="border-0" id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <section class="section w-100 p-5 bg-light-grey">
-                <div class="container py-5">
-                    <div class="row">
-                        <div class="col-6">
-                            
-                        </div>
-                        <div class="col-6">
-                            <div class="card p-5 polygon-contact-card bg-transparent border-main">
-                                <div class="card-body p-5">
-                                    This is some text within a card body.
+                </nav>
+            </div>
+        </header>
+        <!-- #masthead -->
+        <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
+            <div class="border-0 bg-transparent" id="page-sub-header">
+                <section class="section w-100 p-5">
+                    <div class="container py-5">
+                        <div class="row py-5">
+                            <div class="col-12">
+                                <div class="card py-5 bg-transparent border-0">
+                                    <div class="card-body py-5 font-white">
+                                        <h2 class="feature-card-title">Sophrologie, massages et massages sportifs.</h2>
+                                        <a href="#" class="btn btn-main-full">Action principale</a>
+                                        <a href="#" class="btn btn-main-outlined">Action secondaire</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-        </div>
-    <?php endif; ?>
+            </div>
+        <?php endif; ?>
+    </section>
 	<div id="content" class="site-content">
 		<div class="section">
 			<div class="">

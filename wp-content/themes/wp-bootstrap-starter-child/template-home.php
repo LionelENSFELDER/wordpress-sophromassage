@@ -7,38 +7,6 @@ get_header();
 ?>
 
 
-<!-- Qui suis-je ? -->
-<section class="w-100 p-5">
-
-    <div class="container">
-
-        <div class="card-group">
-            <div class="card m-0 border-0">
-                <div class="card-body">
-                    <h1 class="font-weight-bold font-hard-grey">Qui suis-je ?</h1>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur a velit id magna pulvinar mollis. 
-                        Phasellus nec turpis id eros hendrerit pulvinar. 
-                        Nullam pretium enim eget facilisis scelerisque. 
-                        Aliquam vitae mollis est, quis vulputate leo. 
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
-                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
-                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
-                        malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
-                    </p>
-                </div>
-            </div>
-
-            <div class="card m-0 col-md-12 border-0 rounded">
-                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="rounded" alt="...">
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 
 
 <!-- Définitions -->
@@ -181,6 +149,45 @@ get_header();
 
 
 
+
+
+
+<!-- Qui suis-je ? -->
+<section class="w-100 p-5">
+
+    <div class="container">
+
+        <div class="card-group">
+            <div class="card m-0 border-0">
+                <div class="card-body">
+                    <h1 class="font-weight-bold font-hard-grey">Qui suis-je ?</h1>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur a velit id magna pulvinar mollis. 
+                        Phasellus nec turpis id eros hendrerit pulvinar. 
+                        Nullam pretium enim eget facilisis scelerisque. 
+                        Aliquam vitae mollis est, quis vulputate leo. 
+                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
+                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
+                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
+                        malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
+                    </p>
+                </div>
+            </div>
+
+            <div class="card m-0 col-md-12 border-0 rounded">
+                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="rounded" alt="...">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
 <!-- Mon approche -->
 <section class="w-100 p-5">
 
@@ -293,7 +300,7 @@ get_header();
 
 
 <!-- bandeau chiffres -->
-<section class="section w-100 p-5 bg-light-grey polygon-numbers-section">
+<section class="section w-100 p-5 bg-green polygon-numbers-section">
     <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -626,7 +633,7 @@ get_header();
                 <div class="carousel-item active" data-interval="10000">
                     <div class="card w-100 border-0">
                         <div class="card-body text-center">
-                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="..." class="rounded-circle client-img">
+                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -637,7 +644,7 @@ get_header();
                 <div class="carousel-item" data-interval="10000">
                     <div class="card w-100 border-0">
                         <div class="card-body text-center">
-                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="..." class="rounded-circle client-img">
+                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
                             <h5 class="card-title">Card title 2</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
