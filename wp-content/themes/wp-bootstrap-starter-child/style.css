@@ -7,22 +7,64 @@ Template:wp-bootstrap-starter
 Version:1.0
 */
 
-/* 
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Main colors
+# Normalize
+# Shapes
+# Typography
+## Font color
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Content
+	## Posts and pages
+	## Comments
+# Woocommerce
+# Footer
+--------------------------------------------------------------*/
 
-!!! MAINS COLORS !!!
+
+
+/* ===============
+   MAINS COLORS
+
 #004749 : hard green
 #00c599 : light green
 #F2CFB3 : light beige
 #c5c5c5 : light-grey
 
+   =============== */
 
-*/
-/* SHAPES */
-.polygon-header{
-    clip-path: polygon(0 0, 100% 0, 100% 76%, 59% 86%, 0 100%);
+/* ===IMPORT=== */
+@font-face {
+    font-family: 'fontawesome';
+    src: url('fonts/fontawesome/webfonts/fa-solid-900.eot'); /* IE9 Compat Modes */
+    src:
+        url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/fontawesome/webfonts/fa-solid-900.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/fontawesome/webfonts/fa-solid-900.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/fontawesome/webfonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-.polygon-numbers-section{
+
+
+/* ===SHAPES=== */
+.polygon-diagonal{
     clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%);
+}
+.polygon-diagonal-reverse{
+    clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+}
+.polygon-banner-2{
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    transition-duration: 1000ms;
+}
+.polygon-banner-2:hover{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 .polygon-contact-card{
     clip-path: polygon(0 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
@@ -30,13 +72,19 @@ Version:1.0
 .polygon-heptagon{
     clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
-/* FONT-FACE */
-@font-face {
-    font-family: fontawesome;
-    src: url('/fonts/css/icofont.ttf');
-}
 
-/* FONTS COLORS */
+/* ===FONTS STYLE=== */
+.important-number{
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-size: 3.5em;
+}
+.action-title{
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-size: 3.5em;
+}
+/* ===FONTS COLORS=== */
 .font-hard-green{
     color: #004749;
 }
@@ -60,9 +108,9 @@ Version:1.0
     background: -webkit-linear-gradient(#004749, #00c599);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 
-/* BUTTONS STYLES */
+/* ===BUTTONS STYLES=== */
 .btn-main-full{
     border: solid 0px transparent;
     background-color: #004749;
@@ -94,10 +142,34 @@ Version:1.0
     color: #004749;
     transition-duration: 300ms;
 }
+.btn-main-blanco-outlined{
+    border: solid 1px #FFFFFF;
+    background-color: transparent;
+    color: #ffffff;
+}
 .btn-main-blanco:hover{
 }
-
-/* MAIN CONTAINER */
+.btn-link-arrow{
+    transition-duration: 300ms;
+}
+.btn-link-arrow::after{
+    font-family: "fontawesome";
+    margin-left: 5px;
+    content: "\f105";
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+.btn-link-arrow:hover::after {
+    margin-left: 10px;
+}
+.btn-link-underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.btn-link-underline:hover{
+    
+}
+/* ===MAIN CONTAINERS=== */
 body{
     background-color: #FEFEFE;
     color: #a3a9b3;
@@ -112,32 +184,22 @@ body{
 .feature-row{
     height: 500px;
 }
-/* BACKGROUND COLORS*/
+
+/* ===BACKGROUND=== */
 .bg-light-grey{
     background-color: #F1F1F1;
 }
 .bg-green{
     background-color: #004749;
 }
-.bg-1{
-    background-color: #f6f6f9;
+.bg-beige{
+    background-color: ;
 }
-.bg-2{
-    background-color: #f1f2f6;
+.bg-brown{
+    background-color: ;
 }
-.bg-3{
-    background-color: #dcdce0;
-}
-.bg-4{
-    background-color: #004749;
-}
-.bg-5{
-    background-color: #F2CFB3;
-}
-.bg-6{
-    background-color: #00c599;
-}
-/* PARALLAX */
+
+/* ===PARALLAX=== */
 .parallax {
   /* The image used */
   background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg');
@@ -164,7 +226,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* ICO & SIZE */
+
+/* ===ICO SIZE=== */
 .ico-s{
     font-size: 1.3em;
 }
@@ -174,22 +237,27 @@ body{
 .ico-l{
     font-size: 3em;
 }
-/* FONT COLOR */
+
+/* ===FONT COLORS=== */
 .font-green{
     color: #277f4c;
 }
-.font-pink{
+.font-beige{
     color: #F2CFB3;
 }
 .font-light-grey{
     color: #c5c5c5;
 }
-/* BORDER COLOR */
+.font-hard-grey{
+    color: #7a7a7a;
+}
+
+/* ===BORDER COLORS=== */
 .border-main{
     border: 1px solid #277f4c;
 }
 
-/* HEADER */
+/* ===HEADER=== */
 #master-header{
     background-size: cover;
 }
@@ -205,7 +273,8 @@ body{
     padding: 0px;
     background-color: transparent;
 }
-/* NAVBAR */
+
+/* ===NAVBAR=== */
 header#masthead {
     background-color: transparent;
     color: #004749;
@@ -219,12 +288,14 @@ header#masthead {
 .navbar-bg.scrolled{
     background-color: #004749;
 }
-/* BLUR EFFECT */
+
+/* ===BLUR EFFECT=== */
 .blur-soft{
     filter: blur(1px);
     -webkit-filter: blur(1px);
 }
-/* TESTIMONIAL */
+
+/* ===TESTIMONIAL SECTION=== */
 .client-img{
     width: 200px;
     height: 200px;

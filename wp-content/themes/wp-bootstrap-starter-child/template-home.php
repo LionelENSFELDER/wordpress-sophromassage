@@ -20,12 +20,12 @@ get_header();
                 <div class="p-4 border-right">
                     <div class="">
                         <div class="mb-3">
-                            <i class="fas fa-heart mr-2 ico-m font-pink"></i>
+                            <i class="fas fa-heart mr-2 ico-m font-beige"></i>
                             <span class="font-weight-bold font-hard-grey">SOPHROLOGIE</span>
                         </div>
                         <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus...</button>
+                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus</button>
                     </div>
 
                     <!-- Modal -->
@@ -61,12 +61,12 @@ get_header();
             <div class="p-4 border-right">
                     <div class="test">
                         <div class="mb-3">
-                            <i class="fas fa-spa mr-2 ico-m font-pink"></i>
+                            <i class="fas fa-spa mr-2 ico-m font-beige"></i>
                             <span class="font-weight-bold text-secondary">MASSAGES BIEN-ETRE</span>
                         </div>
                         <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_massage">En savoir plus...</button>
+                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_massage">En savoir plus</button>
                     </div>
 
                     <!-- Modal -->
@@ -104,12 +104,12 @@ get_header();
             <div class="p-4">
                     <div class="">
                         <div class="mb-3">
-                            <i class="fas fa-running mr-2 ico-m font-pink"></i>
+                            <i class="fas fa-running mr-2 ico-m font-beige"></i>
                             <span class="font-weight-bold text-secondary">MASSAGES BIEN-ETRE SPORTIFS</span>
                         </div>
                         <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-main-light px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus...</button>
+                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus...</button>
 
                         <!-- Modal -->
                         <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -248,6 +248,9 @@ get_header();
                                 <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
                                 <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
                             </div>
+                            <div class="mb-3">
+                                <a href="#" class="btn btn-link-underline font-hard-green">Action secondaire</a>
+                            </div>
                         </p>
                     </div>
                 </div>
@@ -255,11 +258,11 @@ get_header();
             <div class="col-7">
                 <!-- pricing card template 1-->
                 <div class="row card-deck">
-                    <div class="card bg-4 py-3 text-white text-center rounded border-0 shadow">
+                    <div class="card bg-green py-3 text-white text-center rounded border-0 shadow">
                         <div class="card-header text-white border-0">
                             <h3 class="card-title text-white">Sophrologie</h3>
                             <span class="">A partir de </span>
-                            <h1 class="text-white card-title font-weight-bold">12€</h1>
+                            <span class="card-title d-block font-white font-weight-bold important-number font-effect-3d-float">12€</span>
                         </div>
                         <div class="card-body py-0">
                             <p class="card-text my-5">
@@ -278,7 +281,7 @@ get_header();
                         <div class="card-header bg-transparent border-0">
                             <h3 class="card-title">Massages</h3>
                             <span class="">A partir de </span>
-                            <h1 class="card-title font-weight-bold">15€</h1>
+                            <span class="card-title d-block font-hard-green font-weight-bold important-number font-effect-3d-float">15€</span>
                         </div>
                         <div class="card-body py-0">
                             <p class="card-text my-5">
@@ -300,7 +303,7 @@ get_header();
 
 
 <!-- bandeau chiffres -->
-<section class="section w-100 p-5 bg-green polygon-numbers-section">
+<section class="section w-100 p-5 bg-green polygon-diagonal">
     <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -408,19 +411,19 @@ get_header();
 
 
 <!-- Gros titre -->
-<section class="section w-100 p-5 text-white parallax-2">
+<section class="section w-100 p-5 text-white parallax-2 polygon-diagonal-reverse">
     <!-- CONTAINER -->
     <div class="container p-5">
         <div class="row justify-content-center p-5">
             <!-- COL -->
             <div class="text-center">
-                <h1 class="text-white font-weight-bold">ghfdtyhfghfghfghgfh</h1>
+                <h1 class="text-white font-weight-bold action-title">Lorem Ipsum</h1>
                 <p class="text-center">
                     consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
                     dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
                     rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
                 </p>
-                <button type="button" class="btn btn-lg btn-main-blanco">Main</button>
+                <button type="button" class="btn btn-lg btn-main-full">Main</button>
             </div>
             <!-- END COL -->
         </div>

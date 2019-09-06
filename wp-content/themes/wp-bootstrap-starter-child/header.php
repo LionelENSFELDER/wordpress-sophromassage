@@ -17,6 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700,800,900&display=swap&effect=3d-float" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 
@@ -70,7 +71,7 @@
                                     <div class="card-body py-5 font-white">
                                         <h2 class="feature-card-title">Sophrologie, massages et massages sportifs.</h2>
                                         <a href="#" class="btn btn-main-full">Action principale</a>
-                                        <a href="#" class="btn btn-main-outlined">Action secondaire</a>
+                                        <a href="#" class="btn btn-link-underline text-white">Action secondaire</a>
                                     </div>
                                 </div>
                             </div>
