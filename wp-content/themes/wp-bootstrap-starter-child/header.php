@@ -17,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2:700,800,900&display=swap&effect=3d-float" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700,800,900&display=swap&effect=3d-float|3d" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 
@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-    <section id="master-header" class="w-100 bg-light-grey" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
+    <section id="master-header" class="w-100 bg-light-green" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
         <header id="masthead" class="site-header navbar-static-top shadow-none <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
             <div class="container py-3">
                 <nav class="navbar navbar-expand-xl p-0">
@@ -71,7 +71,7 @@
                                     <div class="card-body py-5 font-white">
                                         <h2 class="feature-card-title">Sophrologie, massages et massages sportifs.</h2>
                                         <a href="#" class="btn btn-main-full">Action principale</a>
-                                        <a href="#" class="btn btn-link-underline text-white">Action secondaire</a>
+                                        <a href="#" class="btn btn-link-arrow text-white">Action secondaire</a>
                                     </div>
                                 </div>
                             </div>

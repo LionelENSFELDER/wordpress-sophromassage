@@ -20,12 +20,12 @@ get_header();
                 <div class="p-4 border-right">
                     <div class="">
                         <div class="mb-3">
-                            <i class="fas fa-heart mr-2 ico-m font-beige"></i>
-                            <span class="font-weight-bold font-hard-grey">SOPHROLOGIE</span>
+                            <i class="fas fa-wind mr-2 ico-m font-light-green"></i>
+                            <span class="font-weight-bold font-light-green">SOPHROLOGIE</span>
                         </div>
                         <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus</button>
+                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus</button>
                     </div>
 
                     <!-- Modal -->
@@ -58,15 +58,15 @@ get_header();
             <!-- COL END -->
             <div class="col-sm">
             <!-- CARD -->
-            <div class="p-4 border-right">
+            <div class="p-4 border-right card-deck">
                     <div class="test">
                         <div class="mb-3">
-                            <i class="fas fa-spa mr-2 ico-m font-beige"></i>
-                            <span class="font-weight-bold text-secondary">MASSAGES BIEN-ETRE</span>
+                            <i class="fas fa-spa mr-2 ico-m font-light-green"></i>
+                            <span class="font-weight-bold font-light-green">MASSAGES BIEN-ETRE & SPORTIF</span>
                         </div>
                         <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_massage">En savoir plus</button>
+                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_massage">En savoir plus</button>
                     </div>
 
                     <!-- Modal -->
@@ -101,15 +101,15 @@ get_header();
             </div>
             <div class="col-sm">
             <!-- CARD -->
-            <div class="p-4">
+            <div class="p-4 shadow-at-hover">
                     <div class="">
                         <div class="mb-3">
-                            <i class="fas fa-running mr-2 ico-m font-beige"></i>
-                            <span class="font-weight-bold text-secondary">MASSAGES BIEN-ETRE SPORTIFS</span>
+                            <i class="fas fa-book-open mr-2 ico-m font-light-green"></i>
+                            <span class="font-weight-bold font-light-green">ATELIERS & FORMATIONS</span>
                         </div>
                         <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-green px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus...</button>
+                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus</button>
 
                         <!-- Modal -->
                         <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -146,7 +146,6 @@ get_header();
         <!-- END CARD DECK-->
     </div>
 </section>
-
 
 
 
@@ -235,6 +234,7 @@ get_header();
                             dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
                             rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
                         </p>
+                        <hr>
                         <p class="">
                             <div class="mb-3">
                                 <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
@@ -248,9 +248,6 @@ get_header();
                                 <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
                                 <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
                             </div>
-                            <div class="mb-3">
-                                <a href="#" class="btn btn-link-underline font-hard-green">Action secondaire</a>
-                            </div>
                         </p>
                     </div>
                 </div>
@@ -258,11 +255,12 @@ get_header();
             <div class="col-7">
                 <!-- pricing card template 1-->
                 <div class="row card-deck">
-                    <div class="card bg-green py-3 text-white text-center rounded border-0 shadow">
-                        <div class="card-header text-white border-0">
-                            <h3 class="card-title text-white">Sophrologie</h3>
+                    <div class="card bg-light-green py-3 text-white text-center rounded border-0 shadow">
+                        <div class="card-header bg-transparent text-white border-0">
+                            <h3 class="card-title font-weight-bold text-white">Sophrologie</h3>
                             <span class="">A partir de </span>
                             <span class="card-title d-block font-white font-weight-bold important-number font-effect-3d-float">12€</span>
+                           <!-- <span class="d-block py-3"><i class="fas fa-wind mr-2 ico-l font-white"></i></span> -->
                         </div>
                         <div class="card-body py-0">
                             <p class="card-text my-5">
@@ -277,17 +275,17 @@ get_header();
                     </div>
         
                     <!-- pricing card template 2-->
-                    <div class="card py-3 text-center rounded border-0 shadow">
-                        <div class="card-header bg-transparent border-0">
-                            <h3 class="card-title">Massages</h3>
+                    <div class="card py-3 text-center rounded border-0 shadow bg-salmon">
+                        <div class="card-header bg-transparent border-0 font-white">
+                            <h3 class="card-title font-weight-bold font-white">Massages</h3>
                             <span class="">A partir de </span>
                             <span class="card-title d-block font-hard-green font-weight-bold important-number font-effect-3d-float">15€</span>
                         </div>
                         <div class="card-body py-0">
                             <p class="card-text my-5">
-                                <span class="mb-3 d-block">Amma Assis</span>
-                                <span class="mb-3 d-block">Relaxation coréenne</span>
-                                <span class="mb-3 d-block">Massage californien</span>
+                                <span class="mb-3 d-block font-white">Amma Assis</span>
+                                <span class="mb-3 d-block font-white">Relaxation coréenne</span>
+                                <span class="mb-3 d-block font-white">Massage californien</span>
                             </p>
                         </div>
                         <div class="card-footer bg-transparent border-0">
@@ -303,7 +301,7 @@ get_header();
 
 
 <!-- bandeau chiffres -->
-<section class="section w-100 p-5 bg-green polygon-diagonal">
+<section class="section w-100 p-5 bg-light-green polygon-diagonal">
     <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -313,9 +311,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-bolt fa-3x"></i>
+                            <i class="fas fa-bolt fa-3x font-salmon"></i>
                             </div>
-                            <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                            <span class="card-text">Mieux-être</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -327,9 +325,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-hand-holding-heart fa-3x"></i>
+                            <i class="fas fa-hand-holding-heart fa-3x font-salmon"></i>
                             </div>
-                            <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                            <span class="card-text">Bien-être</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -341,9 +339,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-heart fa-3x"></i>
+                            <i class="fas fa-brain fa-3x font-salmon"></i>
                             </div>
-                            <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                            <span class="card-text">Préparation mentale</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -355,9 +353,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-toilet-paper fa-3x"></i>
+                            <i class="fas fa-toilet-paper fa-3x font-salmon"></i>
                             </div>
-                            <span class="card-text">With supporting text below as a natural lead-in to additional content.</span>
+                            <span class="card-text">Préparation physique</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -368,6 +366,7 @@ get_header();
     </div>
 </section>
 <!-- END full-width section template -->
+
 
 
 
@@ -499,17 +498,17 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <div class="card polygon-contact-card bg-green">
-                    <div class="card-body">
-                        <h3 class="text-light font-weight-bold mb-4">Contact</h3>
-                        <div class="mb-4 text-light">
+                <div class="card polygon-contact-card border-0 bg-light-green">
+                    <div class="card-body font-white">
+                        <h3 class="font-weight-bold mb-4 font-white">Contact</h3>
+                        <div class="mb-4">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Ut efficitur pharetra sapien, at consequat massa lacinia nec. 
                                 Nunc molestie egestas vestibulum.
                             </p>
                         </div>
-                        <div class="mb-4 text-light">
+                        <div class="mb-4">
                             <span class="d-block">Eléonore Hottou</span>
                             <span class="d-block">06 46 81 94 31</span>
                             <span class="d-block">hello@sophromassage.fr</span>
@@ -556,7 +555,7 @@ get_header();
 
 
                         <!-- icons -->
-                        <div class="mb-3 font-white">
+                        <div class="mb-3">
                             <a href="" title="" alt=""><i class="fab fa-facebook-square mr-2 ico-m font-white"></i></a>
                             <a href="" title="" alt=""><i class="fab fa-medium mr-2 ico-m font-white"></i></a>
                         </div>

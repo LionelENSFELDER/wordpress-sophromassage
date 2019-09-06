@@ -32,10 +32,9 @@ Version:1.0
 /* ===============
    MAINS COLORS
 
-#004749 : hard green
-#00c599 : light green
-#F2CFB3 : light beige
-#c5c5c5 : light-grey
+#92A683 : light green
+#E4BDA3 : salmon
+#F1F1F1 : light-grey
 
    =============== */
 
@@ -50,8 +49,13 @@ Version:1.0
         url('fonts/fontawesome/webfonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-
-
+/* ===IMPORT=== */
+.shadow-at-hover{
+    animation-delay: 1000ms;
+}
+.shadow-at-hover:hover{
+    box-shadow: 10px 5px 5px #F1F1F1;
+}
 /* ===SHAPES=== */
 .polygon-diagonal{
     clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%);
@@ -84,36 +88,11 @@ Version:1.0
     font-weight: 900;
     font-size: 3.5em;
 }
-/* ===FONTS COLORS=== */
-.font-hard-green{
-    color: #004749;
-}
-.font-hard-grey{
-    color: #7a7a7a;
-}
-.font-light-green{
-    color: #00c599;
-}
-.font-light-beige{
-    color: #F2CFB3;
-}
-.font-light-grey{
-    color: #a3a9b3;
-}
-.font-white{
-    color: #ffffff;
-}
-.gradient-text {
-    font-size: 30px;
-    background: -webkit-linear-gradient(#004749, #00c599);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 /* ===BUTTONS STYLES=== */
 .btn-main-full{
     border: solid 0px transparent;
-    background-color: #004749;
+    background-color: #92A683;
     color: #ffffff;
     transition-duration: 300ms;
 }
@@ -189,11 +168,14 @@ body{
 .bg-light-grey{
     background-color: #F1F1F1;
 }
-.bg-green{
+/* .bg-green{
     background-color: #004749;
+} */
+.bg-light-green{
+    background-color: #92A683;
 }
-.bg-beige{
-    background-color: ;
+.bg-salmon{
+    background-color: #E4BDA3;
 }
 .bg-brown{
     background-color: ;
@@ -239,17 +221,29 @@ body{
 }
 
 /* ===FONT COLORS=== */
-.font-green{
+/* .font-green{
     color: #277f4c;
+} */
+.font-light-green{
+   color: #92A683;
 }
-.font-beige{
-    color: #F2CFB3;
+.font-salmon{
+    color: #E4BDA3;
 }
 .font-light-grey{
     color: #c5c5c5;
 }
 .font-hard-grey{
     color: #7a7a7a;
+}
+.font-white{
+    color: #FFFFFF;
+}
+.gradient-text {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#004749, #00c599);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* ===BORDER COLORS=== */
