@@ -274,7 +274,10 @@ header#masthead {
     color: #004749;
 }
 .navbar-brand > a {
-    color: #004749;
+    color: #FFFFFF;
+}
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a{
+    color: #FFFFFF;
 }
 .navbar-bg{
     background-color: #ffffff;

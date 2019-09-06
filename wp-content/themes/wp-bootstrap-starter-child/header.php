@@ -66,11 +66,14 @@
                 <section class="section w-100 p-5">
                     <div class="container py-5">
                         <div class="row py-5">
+                            <!-- <div class="col-6">
+                                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/2793999-removebg-preview-e1567787706979.png">
+                            </div> -->
                             <div class="col-12">
-                                <div class="card py-5 bg-transparent border-0">
+                                <div class="card py-5 bg-transparent border-0 text-left">
                                     <div class="card-body py-5 font-white">
-                                        <h2 class="feature-card-title">Sophrologie, massages et massages sportifs.</h2>
-                                        <a href="#" class="btn btn-main-full">Action principale</a>
+                                        <h2 class="feature-card-title">Lorem Ipsum caser lina !</h2>
+                                        <a href="#" class="btn btn-main-blanco">Action principale</a>
                                         <a href="#" class="btn btn-link-arrow text-white">Action secondaire</a>
                                     </div>
                                 </div>
