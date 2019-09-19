@@ -49,6 +49,9 @@ Version:1.0
         url('fonts/fontawesome/webfonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+html {
+    scroll-behavior: smooth;
+}
 /* ===IMPORT=== */
 .shadow-at-hover{
     animation-delay: 1000ms;

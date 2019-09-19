@@ -152,7 +152,7 @@ get_header();
 
 
 <!-- QUI SUIS-JE ? -->
-<section class="w-100 p-5">
+<section id="me" class="w-100 p-5">
 
     <div class="container">
 
@@ -188,7 +188,7 @@ get_header();
 
 
 <!-- MON APPROCHE -->
-<section class="w-100 p-5">
+<section id="mon-approche" class="w-100 p-5">
 
     <div class="container">
 
@@ -223,7 +223,7 @@ get_header();
 
 
 <!-- TARIFS -->
-<section class="section w-100 p-5">
+<section id="tarifs" class="section w-100 p-5">
     <div class="container">
         <div class="row">
             <div class="col-5">
@@ -300,8 +300,8 @@ get_header();
 
 
 
-<!-- BANNER -->
-<section class="section w-100 p-5 bg-light-green polygon-diagonal">
+<!-- BANNER ICONS-->
+<section id="banner-icons" class="section w-100 p-5 bg-light-green polygon-diagonal">
     <div class="container py-5">
         <div class="my-5 text-white">
             <div class="row card-group">
@@ -372,7 +372,7 @@ get_header();
 
 
 <!-- SEANCE SUR RDV -->
-<section class="w-100 p-5">
+<section id="rdv" class="w-100 p-5">
 
     <div class="container">
 
@@ -444,7 +444,7 @@ get_header();
 
 
 <!-- ARTICLE LOOP => OVERLAY -->
-<section class="section w-100 p-5">
+<section id="articles" class="section w-100 p-5">
     <div class="container">
         <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles (overlay)</h1>
 
@@ -493,7 +493,7 @@ get_header();
 
 
 <!-- FORMULAIRE CONTACT -->
-<section class="section w-100 p-5">
+<section id="contact" class="section w-100 p-5">
     <!-- CONTAINER -->
     <div class="container">
         <div class="row">
@@ -626,7 +626,7 @@ get_header();
 
 
 <!-- AVIS CLIENTS -->
-<section class="">
+<section id="avis" class="">
     <div class="container">
         <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients</h1>
         <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
@@ -670,7 +670,7 @@ get_header();
 
 
 <!-- AVIS CLIENTS DYN-->
-<section class="">
+<section id="avis" class="">
     <div class="container">
         <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1>
         <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
