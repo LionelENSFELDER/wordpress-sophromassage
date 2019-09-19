@@ -10,7 +10,7 @@ get_header();
 
 
 <!-- Définitions -->
-<section class="section w-100 p-5">
+<section id="definitions" class="section w-100 p-5">
     <div class="container">
 
         <div class="row card-deck">
@@ -151,7 +151,7 @@ get_header();
 
 
 
-<!-- Qui suis-je ? -->
+<!-- QUI SUIS-JE ? -->
 <section class="w-100 p-5">
 
     <div class="container">
@@ -187,7 +187,7 @@ get_header();
 
 
 
-<!-- Mon approche -->
+<!-- MON APPROCHE -->
 <section class="w-100 p-5">
 
     <div class="container">
@@ -222,7 +222,7 @@ get_header();
 
 
 
-<!-- Tarifs -->
+<!-- TARIFS -->
 <section class="section w-100 p-5">
     <div class="container">
         <div class="row">
@@ -300,7 +300,7 @@ get_header();
 
 
 
-<!-- bandeau chiffres -->
+<!-- BANNER -->
 <section class="section w-100 p-5 bg-light-green polygon-diagonal">
     <div class="container py-5">
         <div class="my-5 text-white">
@@ -311,9 +311,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-bolt fa-3x font-salmon"></i>
+                            <i class="fas fa-sliders-h fa-3x font-white"></i>
                             </div>
-                            <span class="card-text">Mieux-être</span>
+                            <span class="card-text">Prestations personnalisées</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -325,9 +325,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-hand-holding-heart fa-3x font-salmon"></i>
+                            <i class="fas fa-compass fa-3x font-white"></i>
                             </div>
-                            <span class="card-text">Bien-être</span>
+                            <span class="card-text">Ecoute et orientation</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -339,9 +339,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-brain fa-3x font-salmon"></i>
+                            <i class="fas fa-road fa-3x font-white"></i>
                             </div>
-                            <span class="card-text">Préparation mentale</span>
+                            <span class="card-text">Déplacement</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -353,9 +353,9 @@ get_header();
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-toilet-paper fa-3x font-salmon"></i>
+                            <i class="fas fa-handshake fa-3x font-white"></i>
                             </div>
-                            <span class="card-text">Préparation physique</span>
+                            <span class="card-text">Evénementiel</span>
                         </div>
                     </div>
                     <!-- CARD END-->
@@ -371,7 +371,7 @@ get_header();
 
 
 
-<!-- Séance sur rdv -->
+<!-- SEANCE SUR RDV -->
 <section class="w-100 p-5">
 
     <div class="container">
@@ -409,7 +409,7 @@ get_header();
 
 
 
-<!-- Gros titre -->
+<!-- PARALLAX 1 -->
 <section class="section w-100 p-5 text-white parallax-2 polygon-diagonal-reverse">
     <!-- CONTAINER -->
     <div class="container p-5">
@@ -443,7 +443,7 @@ get_header();
 
 
 
-<!-- Articles style => OVERLAY-->
+<!-- ARTICLE LOOP => OVERLAY -->
 <section class="section w-100 p-5">
     <div class="container">
         <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles (overlay)</h1>
@@ -492,7 +492,7 @@ get_header();
 
 
 
-<!-- FORMULAIRE NEW -->
+<!-- FORMULAIRE CONTACT -->
 <section class="section w-100 p-5">
     <!-- CONTAINER -->
     <div class="container">
@@ -666,6 +666,50 @@ get_header();
     </div>
 </section>
 
+
+
+
+<!-- AVIS CLIENTS DYN-->
+<section class="">
+    <div class="container">
+        <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1>
+        <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
+            <div class="carousel-inner">
+                <!-- CARD -->
+                <?php
+                    $arg = array(
+                        'orderby' => 'post_date',
+                        'category' => 3
+                    );
+                    $posts_array = get_posts($args);
+                    foreach($posts_array as $post){
+                        ?>
+                        <div class="carousel-item active" data-interval="10000">
+                        <div class="card w-100 border-0">
+                        <div class="card-body text-center">
+                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                        </div>
+
+                    <?php
+                    }
+                ?>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
+                <span><i class="fas fa-arrow-alt-circle-left ico-l font-hard-green"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
+                <span><i class="fas fa-arrow-alt-circle-right ico-l font-hard-green"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
 
 
 <?php 
