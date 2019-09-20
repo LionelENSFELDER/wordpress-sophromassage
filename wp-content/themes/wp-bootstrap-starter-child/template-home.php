@@ -32,23 +32,28 @@ get_header();
                     <div class="modal fade" id="define_sophrologie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                            <div class="modal-header border-0">
-                                <h2 class="modal-title" id="exampleModalLabel">Sophrologie</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>Une approche douce et naturelle</h3>
-                                <p>
-                                Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
-                                sur la réalisation de mouvements spécifiques de détente musculaire, 
-                                d’exercices de respiration et de techniques de visualisation positive.
-                                </p>
-                            </div>
-                            <div class="modal-footer border-0">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                            </div>
+                                <!-- <div class="modal-header border-0">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                                <div class="modal-body px-5 text-center">
+                                    <div class="mb-2 w-100">
+                                        <i class="fas fa-wind ico-m font-light-green"></i>
+                                        <h1 class="font-weight-bold font-light-green">Title</h1>
+                                    </div>
+                                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
+                                    <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
+                                    <p>
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
+                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    d’exercices de respiration et de techniques de visualisation positive.
+                                    </p>
+                                </div>
+                                <div class="modal-footer border-0">
+                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -72,27 +77,29 @@ get_header();
                     <!-- Modal -->
                     <div class="modal fade" id="define_massage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                            <div class="modal-header border-0">
-                                <h2 class="modal-title" id="exampleModalLabel">Massage bien-être</h2>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h3>Types de massages que je pratique</h3>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Fusce consectetur quis dolor eu convallis. 
-                                Nam lobortis ante molestie neque bibendum sagittis. 
-                                Curabitur ultrices iaculis purus sit amet sodales. 
-                                Praesent libero turpis, condimentum placerat venenatis id, c
-                                ondimentum ac lorem. Ut est est, volutpat sed tellus nec, scelerisque lobortis ligula.
-                                </p>
-                            </div>
-                            <div class="modal-footer border-0">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                            </div>
+                        <div class="modal-content">
+                                <!-- <div class="modal-header border-0">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> -->
+                                <div class="modal-body px-5 text-center">
+                                    <div class="mb-2 w-100">
+                                        <i class="fas fa-spa ico-m font-light-green"></i>
+                                        <h1 class="font-weight-bold font-light-green">Title</h1>
+                                    </div>
+                                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
+                                    <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
+                                    <p>
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
+                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    d’exercices de respiration et de techniques de visualisation positive.
+                                    </p>
+                                </div>
+                                <div class="modal-footer border-0">
+                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -114,28 +121,30 @@ get_header();
                         <!-- Modal -->
                         <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                <div class="modal-header border-0">
-                                    <h2 class="modal-title" id="exampleModalLabel">Massage bien-être sportif</h2>
+                            <div class="modal-content">
+                                <!-- <div class="modal-header border-0">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                     </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>Massages adaptés au sport</h3>
+                                </div> -->
+                                <div class="modal-body px-5 text-center">
+                                    <div class="mb-2 w-100">
+                                        <i class="fas fa-book-open ico-m font-light-green"></i>
+                                        <h1 class="font-weight-bold font-light-green">Title</h1>
+                                    </div>
+                                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
+                                    <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                        Fusce consectetur quis dolor eu convallis. 
-                                        Nam lobortis ante molestie neque bibendum sagittis. 
-                                        Curabitur ultrices iaculis purus sit amet sodales. 
-                                        Praesent libero turpis, condimentum placerat venenatis id, 
-                                        condimentum ac lorem. Ut est est, volutpat sed tellus nec, scelerisque lobortis ligula.
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
+                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    d’exercices de respiration et de techniques de visualisation positive.
                                     </p>
                                 </div>
                                 <div class="modal-footer border-0">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
                                 </div>
-                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>

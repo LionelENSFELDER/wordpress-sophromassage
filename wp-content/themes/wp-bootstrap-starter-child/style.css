@@ -311,3 +311,8 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a{
     /* filter: invert(100%); */
     color: red;
 }
+/* ===MODAL=== */
+.modal-header{
+    background-color: #00c599 !important;
+    color: red;
+}
