@@ -492,7 +492,7 @@ get_header();
             ?>
 
             <div class="col-12 text-center">
-                <button type="button" class="btn btn-main-full">Plus d'articles</button>
+                <a type="button" class="btn btn-main-full" href="./category/blog/">Plus d'articles</a>
             </div>
             
         </div>
