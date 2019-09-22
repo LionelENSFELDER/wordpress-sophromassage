@@ -507,7 +507,8 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <div class="card polygon-contact-card border-0 bg-light-green">
+                <!-- Add shape => polygon-contact-card -->
+                <div class="card border-0 bg-light-green"> 
                     <div class="card-body font-white">
                         <h3 class="font-weight-bold mb-4 font-white">Contact</h3>
                         <div class="mb-4">
@@ -534,29 +535,29 @@ get_header();
                         <div class="modal fade" id="heures-ouverture" tabindex="-1" role="dialog" aria-labelledby="heures-ouverture" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="heures-ouverture">Heures d'ouverture</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body text-dark">
-                                <p>
-                                    Lundi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                    <br>
-                                    Mardi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                    <br>
-                                    Mercredi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                    <br>
-                                    Jeudi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                    <br>
-                                    Vendredi: 8h30 - 12h30 puis 13h30 - 20h00.
-                                    <br>
-                                    Samedi: 10h00 - 20h00.
-                                    <br>
-                                    Dimanche: Fermé.
-                                </p>
-                                </div>
+                                    <div class="modal-header">
+                                        <h5 class="modal-title font-white" id="heures-ouverture">Heures d'ouverture</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true" class="font-white">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body text-dark">
+                                    <p>
+                                        Lundi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                        <br>
+                                        Mardi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                        <br>
+                                        Mercredi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                        <br>
+                                        Jeudi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                        <br>
+                                        Vendredi: 8h30 - 12h30 puis 13h30 - 20h00.
+                                        <br>
+                                        Samedi: 10h00 - 20h00.
+                                        <br>
+                                        Dimanche: Fermé.
+                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

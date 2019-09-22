@@ -313,6 +313,6 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a{
 }
 /* ===MODAL=== */
 .modal-header{
-    background-color: #00c599 !important;
-    color: red;
+    background-color: #92A683 !important;
+    color: #ffffff;
 }
