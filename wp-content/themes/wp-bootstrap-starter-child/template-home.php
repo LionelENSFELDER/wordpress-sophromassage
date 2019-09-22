@@ -633,95 +633,56 @@ get_header();
     </div>
 </section>
 
-
-
-<!-- AVIS CLIENTS -->
-<section id="avis" class="">
+<!-- AVIS CLIENTS-->
+<section id="avis" class="section w-100 p-5 bg-testimonial">
     <div class="container">
-        <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients</h1>
-        <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
-            <div class="carousel-inner">
-                <!-- CARD -->
-                <div class="carousel-item active" data-interval="10000">
-                    <div class="card w-100 border-0">
-                        <div class="card-body text-center">
-                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="carousel-item" data-interval="10000">
-                    <div class="card w-100 border-0">
-                        <div class="card-body text-center">
-                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
-                            <h5 class="card-title">Card title 2</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
-                <span><i class="fas fa-arrow-alt-circle-left ico-l font-hard-green"></i></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
-                <span><i class="fas fa-arrow-alt-circle-right ico-l font-hard-green"></i></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-</section>
 
+        <!-- <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1> -->
 
-
-
-<!-- AVIS CLIENTS DYN-->
-<section id="avis" class="">
-    <div class="container">
-        <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1>
         <div id="testimonial" class="carousel slide" data-ride="carousel" data-keyboard="true">
             <div class="carousel-inner">
                 <!-- CARD -->
                 <?php
-                    $arg = array(
+                    $params = array(
                         'orderby' => 'post_date',
-                        'category' => 3
+                        'category' => 3,
+                        'numberposts' => 99
                     );
-                    $posts_array = get_posts($args);
-                    foreach($posts_array as $post){
+                    $testimonial_array = get_posts($params);
+                    foreach($testimonial_array as $single){
                         ?>
-                        <div class="carousel-item active" data-interval="10000">
-                        <div class="card w-100 border-0">
-                        <div class="card-body text-center">
-                            <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/jack-finnigan-rriAI0nhcbc-unsplash.jpg" alt="..." class="rounded-circle client-img">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        </div>
+                        <div class="carousel-item font-white" data-interval="10000" keyboard="true">
+                            <div class="card w-100 border-0 polygon-diagonal bg-transparent">
+                                <div class="card-body">
+                                    <div class="text-center w-100 mb-3">
+                                        <i class="fas fa-quote-left ico-l"></i>
+                                    </div>
+
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">
+                                            <?php echo $single->post_content;?>
+                                        </p>
+                                        <footer class="blockquote-footer font-weight-bold"><cite title="Source Title"><?php echo $single->post_title; ?></cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
                         </div>
 
                     <?php
                     }
                 ?>
             </div>
-            <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
-                <span><i class="fas fa-arrow-alt-circle-left ico-l font-hard-green"></i></span>
+            <!-- <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
+                <span><i class="fas fa-arrow-alt-circle-left ico-l font-salmon"></i></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
-                <span><i class="fas fa-arrow-alt-circle-right ico-l font-hard-green"></i></span>
+                <span><i class="fas fa-arrow-alt-circle-right ico-l font-salmon"></i></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
         </div>
     </div>
 </section>
 
 
-<?php 
-get_footer();
-?>
+<?php get_footer(); ?>

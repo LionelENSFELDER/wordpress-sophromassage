@@ -180,14 +180,23 @@ body{
 .bg-salmon{
     background-color: #E4BDA3;
 }
-.bg-brown{
-    background-color: ;
+.bg-transparent-grey{
+    background-color: rgba(59, 59, 59, 0.479);;
+}
+.bg-gradient{
+    background-image: linear-gradient(to right, #92a683, #a8ac86, #bdb28c, #d1b796, #e4bda3);
+    -webkit-background-image: linear-gradient(to right, #92a683, #a8ac86, #bdb28c, #d1b796, #e4bda3);
+}
+.bg-testimonial{
+    /* background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
+    background-size: cover; */
+    background-color: #E4BDA3;
 }
 
 /* ===PARALLAX=== */
 .parallax {
   /* The image used */
-  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg');
+  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
 
   /* Set a specific height */
   min-height: 200px; 
@@ -263,7 +272,7 @@ body{
     font-size: 2.5em;
     font-weight: bolder;
 }
-.header-bg{
+.header-bg{i
     background-image: linear-gradient(to bottom, #004749, #3f6a5a, #788c6d, #b5ae89, #f2cfb3);
 }
 #page-sub-header{
