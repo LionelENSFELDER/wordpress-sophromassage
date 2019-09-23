@@ -505,8 +505,8 @@ get_header();
 <section id="contact" class="section w-100 p-5">
     <!-- CONTAINER -->
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row card-deck">
+            <div class="col-6 card border-0 p-0">
                 <!-- Add shape => polygon-contact-card -->
                 <div class="card border-0 bg-light-green"> 
                     <div class="card-body font-white">
@@ -573,10 +573,13 @@ get_header();
                 </div>
             </div>
             <!-- COL-6 -->
-            <div class="col-6">
+            <div class="col-6 card border-0 p-0">
                 
+                <!-- ContactForm 7 shortcode -->
+                <?php echo do_shortcode( '[contact-form-7 id="198" title="Contact form 1"]' ); ?>
 
-                        <form>
+                        <!-- Bootstrap form -->
+                        <!-- <form>
                             <div class="row mb-4">
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="Prénom">
@@ -626,7 +629,7 @@ get_header();
                                     <button type="button" class="btn btn-main-full w-100">Envoyer !</button>
                                 </div>
                             </div>
-                        </form>
+                        </form> -->
 
             </div>
         </div>
