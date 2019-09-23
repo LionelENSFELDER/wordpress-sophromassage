@@ -45,8 +45,8 @@ get_header();
                                     <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
                                     <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
                                     <p>
-                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
-                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
+                                    sur la réalisation de mouvements spécifiques de détente musculaire,
                                     d’exercices de respiration et de techniques de visualisation positive.
                                     </p>
                                 </div>
@@ -91,8 +91,8 @@ get_header();
                                     <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
                                     <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
                                     <p>
-                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
-                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
+                                    sur la réalisation de mouvements spécifiques de détente musculaire,
                                     d’exercices de respiration et de techniques de visualisation positive.
                                     </p>
                                 </div>
@@ -135,8 +135,8 @@ get_header();
                                     <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
                                     <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
                                     <p>
-                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée 
-                                    sur la réalisation de mouvements spécifiques de détente musculaire, 
+                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
+                                    sur la réalisation de mouvements spécifiques de détente musculaire,
                                     d’exercices de respiration et de techniques de visualisation positive.
                                     </p>
                                 </div>
@@ -170,14 +170,14 @@ get_header();
                 <div class="card-body">
                     <h1 class="font-weight-bold font-hard-grey">Qui suis-je ?</h1>
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur a velit id magna pulvinar mollis. 
-                        Phasellus nec turpis id eros hendrerit pulvinar. 
-                        Nullam pretium enim eget facilisis scelerisque. 
-                        Aliquam vitae mollis est, quis vulputate leo. 
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
-                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
-                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur a velit id magna pulvinar mollis.
+                        Phasellus nec turpis id eros hendrerit pulvinar.
+                        Nullam pretium enim eget facilisis scelerisque.
+                        Aliquam vitae mollis est, quis vulputate leo.
+                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus.
+                        Ut varius sed enim placerat hendrerit. Nunc commodo,
+                        velit pharetra tristique fringilla, libero nisl aliquam sem,
                         malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
                     </p>
                 </div>
@@ -210,14 +210,14 @@ get_header();
                 <div class="card-body">
                     <h1 class="font-weight-bold text-secondary">Mon approche</h1>
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur a velit id magna pulvinar mollis. 
-                        Phasellus nec turpis id eros hendrerit pulvinar. 
-                        Nullam pretium enim eget facilisis scelerisque. 
-                        Aliquam vitae mollis est, quis vulputate leo. 
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
-                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
-                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur a velit id magna pulvinar mollis.
+                        Phasellus nec turpis id eros hendrerit pulvinar.
+                        Nullam pretium enim eget facilisis scelerisque.
+                        Aliquam vitae mollis est, quis vulputate leo.
+                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus.
+                        Ut varius sed enim placerat hendrerit. Nunc commodo,
+                        velit pharetra tristique fringilla, libero nisl aliquam sem,
                         malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
                     </p>
                 </div>
@@ -239,8 +239,8 @@ get_header();
                 <div class="card border-0">
                     <div class="card-body">
                         <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
-                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
-                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
+                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque,
+                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu,
                             rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
                         </p>
                         <hr>
@@ -282,7 +282,7 @@ get_header();
                             <a href="#" class="btn btn-main-blanco">Tous les tarifs</a>
                         </div>
                     </div>
-        
+
                     <!-- pricing card template 2-->
                     <div class="card py-3 text-center rounded border-0 shadow bg-salmon">
                         <div class="card-header bg-transparent border-0 font-white">
@@ -370,7 +370,7 @@ get_header();
                     <!-- CARD END-->
                 </div>
                 <!-- COL END -->
-            </div>                    
+            </div>
         </div>
     </div>
 </section>
@@ -391,14 +391,14 @@ get_header();
                 <div class="card-body">
                     <h1 class="font-weight-bold text-secondary">Séance sur rendez-vous</h1>
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Curabitur a velit id magna pulvinar mollis. 
-                        Phasellus nec turpis id eros hendrerit pulvinar. 
-                        Nullam pretium enim eget facilisis scelerisque. 
-                        Aliquam vitae mollis est, quis vulputate leo. 
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus. 
-                        Ut varius sed enim placerat hendrerit. Nunc commodo, 
-                        velit pharetra tristique fringilla, libero nisl aliquam sem, 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur a velit id magna pulvinar mollis.
+                        Phasellus nec turpis id eros hendrerit pulvinar.
+                        Nullam pretium enim eget facilisis scelerisque.
+                        Aliquam vitae mollis est, quis vulputate leo.
+                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus.
+                        Ut varius sed enim placerat hendrerit. Nunc commodo,
+                        velit pharetra tristique fringilla, libero nisl aliquam sem,
                         malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
                     </p>
                 </div>
@@ -427,8 +427,8 @@ get_header();
             <div class="text-center">
                 <h1 class="text-white font-weight-bold action-title">Lorem Ipsum</h1>
                 <p class="text-center">
-                    consectetur adipiscing elit. Etiam sit amet ligula scelerisque, 
-                    dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu, 
+                    consectetur adipiscing elit. Etiam sit amet ligula scelerisque,
+                    dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu,
                     rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
                 </p>
                 <button type="button" class="btn btn-lg btn-main-full">Main</button>
@@ -494,7 +494,7 @@ get_header();
             <div class="col-12 text-center">
                 <a type="button" class="btn btn-main-full" href="./category/blog/">Plus d'articles</a>
             </div>
-            
+
         </div>
     </div>
 </section>
@@ -508,13 +508,13 @@ get_header();
         <div class="row card-deck">
             <div class="col-6 card border-0 p-0">
                 <!-- Add shape => polygon-contact-card -->
-                <div class="card border-0 bg-light-green"> 
+                <div class="card border-0 bg-light-green">
                     <div class="card-body font-white">
                         <h3 class="font-weight-bold mb-4 font-white">Contact</h3>
                         <div class="mb-4">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Ut efficitur pharetra sapien, at consequat massa lacinia nec. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut efficitur pharetra sapien, at consequat massa lacinia nec.
                                 Nunc molestie egestas vestibulum.
                             </p>
                         </div>
@@ -574,8 +574,9 @@ get_header();
             </div>
             <!-- COL-6 -->
             <div class="col-6 card border-0 p-0">
-                
-                <!-- ContactForm 7 shortcode -->
+
+                <!-- Contact Form 7 shortcode -->
+                <!-- TODO: add grid and design -->
                 <?php echo do_shortcode( '[contact-form-7 id="198" title="Contact form 1"]' ); ?>
 
                         <!-- Bootstrap form -->
