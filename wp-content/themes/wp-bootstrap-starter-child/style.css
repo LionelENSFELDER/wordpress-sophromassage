@@ -38,6 +38,15 @@ Version:1.0
 
    =============== */
 
+
+/* ===HR separator=== */
+.separator{
+    display: block;
+    width: 20%;
+    border: 1px solid #92A683;
+    color: #92A683;
+    margin-left: 0;
+}
 /* ===IMPORT=== */
 @font-face {
     font-family: 'fontawesome';
@@ -52,12 +61,12 @@ Version:1.0
 html {
     scroll-behavior: smooth;
 }
-/* ===IMPORT=== */
+/* ===HOVER=== */
 .shadow-at-hover{
     animation-delay: 1000ms;
 }
 .shadow-at-hover:hover{
-    box-shadow: 10px 5px 5px #F1F1F1;
+    box-shadow: 10px 5px 5px #F1F1F1;ba
 }
 /* ===SHAPES=== */
 .polygon-diagonal{
@@ -231,6 +240,9 @@ body{
 .ico-l{
     font-size: 3em;
 }
+.ico-xl{
+    font-size: 5em;
+}
 
 /* ===FONT COLORS=== */
 /* .font-green{
@@ -266,6 +278,7 @@ body{
 /* ===HEADER=== */
 #master-header{
     background-size: cover;
+    height: 800px;
 }
 .feature-card-title{
     color: #FFFFFF;

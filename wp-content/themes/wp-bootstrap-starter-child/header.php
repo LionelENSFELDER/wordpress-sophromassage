@@ -27,7 +27,7 @@
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
     <section id="master-header" class="w-100 bg-light-green" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
         <header id="masthead" class="site-header navbar-static-top shadow-none fixed-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-            <div class="container py-3">
+            <div class="container py-2">
                 <nav class="navbar navbar-expand-xl p-0">
                     <div class="navbar-brand">
                         <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>

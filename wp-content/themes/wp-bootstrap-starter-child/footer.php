@@ -15,13 +15,16 @@
 		</div><!-- .container -->
 	</div><!-- #content -->
     <?php get_template_part( 'footer-widget' ); ?>
-	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
+	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo" style="background-color:transparent;">
+
+		<hr style="background-color:#ffffff; width:100%;">
 		<div class="container pt-3 pb-3">
             <div class="site-info">
                 &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
                 <span class="sep"> | </span>
-                <a class="credits" href="https://afterimagedesigns.com/wp-bootstrap-starter/" target="_blank" title="WordPress Technical Support" alt="Bootstrap WordPress Theme"><?php echo esc_html__('Bootstrap WordPress Theme','wp-bootstrap-starter'); ?></a>
-
+                <a class="credits" href="#" target="_blank" title="Développer par Lionel Ensfelder" alt="Développer par Lionel Ensfelder"><?php echo esc_html__('Développer par Lionel Ensfelder','wp-bootstrap-starter'); ?></a>
+				<span class="sep"> | </span>
+                <a class="credits" href="#" target="_blank" title="Mentions légales" alt="Mentions légales"><?php echo esc_html__('Mentions légales',''); ?></a>
             </div><!-- close .site-info -->
 		</div>
 	</footer><!-- #colophon -->
