@@ -48,6 +48,7 @@ get_header();
 <section id="definitions" class="section w-100 p-5">
     <div class="container py-5">
         <h1 class="font-weight-bold font-hard-grey">Titre</h1>
+        <hr class="separator mb-4">
         <div class="row card-deck">
             <!-- COL -->
             <div class="col-sm">
@@ -56,7 +57,6 @@ get_header();
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-feather-alt mr-2 ico-l mb-3"></i>
-                            <hr class="separator mb-4">
                             <h4 class="font-weight-bold font-hard-grey">Sophrologie</h4>
                         </div>
                         <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
@@ -103,7 +103,6 @@ get_header();
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-spa mr-2 ico-l mb-3"></i>
-                            <hr class="separator mb-4">
                             <h4 class="font-weight-bold font-hard-grey">Massages bien-être et sportif</h4>
                         </div>
                         <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
@@ -149,7 +148,6 @@ get_header();
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-book-open mr-2 ico-l mb-3"></i>
-                            <hr class="separator mb-4">
                             <h4 class="font-weight-bold font-hard-grey">Ateliers & Formations</h4>
                         </div>
                         <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique.</p>
@@ -388,7 +386,8 @@ get_header();
 <!-- ARTICLE LOOP => OVERLAY -->
 <section id="articles" class="section w-100 p-5">
     <div class="container py-5">
-        <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles (overlay)</h1>
+        <h1 class="font-weight-bold font-hard-grey">Les derniers articles</h1>
+        <hr class="separator">
 
         <div class="d-flex align-items-stretch flex-wrap">
             <?php
@@ -424,11 +423,13 @@ get_header();
                 }
             ?>
 
+
             <div class="col-12 text-center">
                 <a type="button" class="btn btn-main-full" href="./category/blog/">Plus d'articles</a>
             </div>
 
         </div>
+
     </div>
 </section>
 

@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<!-- ARTICLE LOOP => OVERLAY -->
+<!-- ARTICLE LOOP -->
 <section id="articles" class="section w-100 p-5">
     <div class="container">
         <h1 class="ml-3 font-weight-bold font-hard-grey">Tous les articles</h1>

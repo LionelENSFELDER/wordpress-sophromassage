@@ -42,7 +42,7 @@ Version:1.0
 /* ===HR separator=== */
 .separator{
     display: block;
-    width: 20%;
+    width: 50px;
     border: 1px solid #92A683;
     color: #92A683;
     margin-left: 0;
