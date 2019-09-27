@@ -309,7 +309,9 @@ header #masthead {
 }
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a{
     color: #FFFFFF;
+    font-size: 1.2em;
 }
+
 .navbar-bg{
     background-color: #ffffff;
 }
