@@ -509,7 +509,7 @@ get_header();
                             <span class="d-block">Les Marjolaines bât. D,<br>296 av. louis Imbert,<br> 83160 La Valette-du-Var</span>
                         </div>
                         <div class="mb-3">
-                            <a href="#" class="btn btn-main-blanco-outlined text-white text-white">Itinéraire</a>
+                            <a href="https://goo.gl/maps/6CsPDwhwTBaRKnei9" class="btn btn-main-blanco-outlined text-white text-white">Itinéraire</a>
                         </div>
                         <!-- icons -->
                         <div class="mb-3">
