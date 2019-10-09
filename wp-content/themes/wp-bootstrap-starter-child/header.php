@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
     <section id="master-header" class="w-100 bg-light-green" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-        <header id="masthead" class="site-header navbar-static-top shadow-none fixed-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+        <header id="masthead" class="site-header navbar-static-top shadow-none fixed-top" role="banner">
             <div class="container py-2">
                 <nav class="navbar navbar-expand-xl p-0">
                     <div class="navbar-brand">

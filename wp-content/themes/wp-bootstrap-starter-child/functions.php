@@ -17,13 +17,12 @@ function wpb_load_fa() {
 }
 add_action( 'wp_enqueue_scripts', 'fontawesome' );
 
-/* === === */
-function navbar_scroll() {
-
-wp_register_script ('navbar', get_stylesheet_directory_uri() . '/js/navbar.js');
-wp_enqueue_script ('navbar');
-}
+/* === CHANGE NAVBAR STYLE WHEN SCROLL=== */
 add_action ('wp_enqueue_scripts', 'navbar_scroll');
+function navbar_scroll() {
+    wp_register_script ('navbar', get_stylesheet_directory_uri() . '/js/navbar.js');
+    wp_enqueue_script ('navbar');
+}
 
 /* === === */
 function testimonial(){

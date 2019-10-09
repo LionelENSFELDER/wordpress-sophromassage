@@ -294,15 +294,11 @@ body{
 }
 
 /* ===NAVBAR=== */
-header #masthead {
-    background-color: transparent;
-}
-.navbar-no-scroll{
-    background-color: transparent;
-}
 .navbar-scroll{
-    background-color: #92A683;
-    color: black;
+    background-color: #92A683 !important;
+}
+header#masthead {
+    background-color: transparent;
 }
 .navbar-brand > a {
     color: #FFFFFF;

@@ -1,9 +1,10 @@
 window.onscroll = () => {
-    let navbar = document.getElementById("masthead");
+	let navbar = document.getElementById("masthead");
+	console.log(navbar);
 
-    if(window.scrollY <= 80){
-        navbar.classList.remove("navbar-scroll");
-    }else if(window.scrollY > 80){
+	if (window.scrollY <= 80) {
+		navbar.classList.remove("navbar-scroll");
+	} else if (window.scrollY > 80) {
 		navbar.classList.add("navbar-scroll");
-    }
-};    
+	}
+};
