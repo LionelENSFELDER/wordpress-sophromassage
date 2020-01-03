@@ -40,7 +40,9 @@
 
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars fa-2x font-white"></i>
+                        </span>
                     </button>
 
                     <?php
@@ -71,10 +73,15 @@
                             </div> -->
                             <div class="col-12">
                                 <div class="card py-5 bg-transparent border-0 text-left">
-                                    <div class="card-body py-5 font-white">
-                                        <h2 class="feature-card-title">Lorem Ipsum caser lina !</h2>
-                                        <a href="#" class="btn btn-main-blanco">Action principale</a>
-                                        <a href="#" class="btn btn-link-arrow text-white">Action secondaire</a>
+                                    <div class="py-5 font-white text-left">
+                                        <h2 class="font-white">Sophrologie, massages bien-être & sportif</h2>
+                                        <p>
+                                            Mieux-être et bien-être au quotidien.
+                                            <br>
+                                            Préparation mentale et physique à un évènement.
+                                        </p>
+                                        <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/plaquette_2019.pdf" class="btn btn-main-blanco">Plaquette 2019</a>
+                                        <a href="#" class="btn btn-link-arrow text-white">Planning des ateliers</a>
                                     </div>
                                 </div>
                             </div>

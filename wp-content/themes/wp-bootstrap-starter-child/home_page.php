@@ -10,29 +10,29 @@ get_header();
 <!-- QUI SUIS-JE ? -->
 <section id="me" class="w-100 py-5">
 
-    <div class="container py-5">
+    <div class="container">
 
-        <div class="card-group">
-            <div class="card m-0 border-0">
-                <div class="card-body">
+        <div class="row">
+        
+            <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0">
+                <div class="">
                     <h1 class="font-weight-bold font-hard-grey">Qui suis-je ?</h1>
                     <hr class="separator">
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur a velit id magna pulvinar mollis.
-                        Phasellus nec turpis id eros hendrerit pulvinar.
-                        Nullam pretium enim eget facilisis scelerisque.
-                        Aliquam vitae mollis est, quis vulputate leo.
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus.
-                        Ut varius sed enim placerat hendrerit. Nunc commodo,
-                        velit pharetra tristique fringilla, libero nisl aliquam sem,
-                        malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
+                        Après avoir travaillé plusieurs années dans le secteur Médico-technique, 
+                        j'ai décidé d’accroître mon expérience par des formations complètes et enrichissantes. 
+                        Je suis aujourd'hui praticienne certifiée en massages bien-être et sportifs de l'Institut Ling Dao, agrée par la FFPMM et Sophrologue formée auprès de l'IFS à Nice.
+                        <br>
+                        Je souhaite participer à l’amélioration et au développement des ressources et du potentiel de chacun. 
+                        Accueillir et maintenir une meilleure qualité de vie au quotidien font aussi parti de mes motivations.
+                        <br>
+                        <span>Je suis Eléonore, votre thérapeute.</span>
                     </p>
                 </div>
             </div>
 
-            <div class="card m-0 col-md-12 border-0 rounded">
-                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="rounded" alt="...">
+            <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0 rounded">
+                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/08/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="img-fluid rounded" alt="...">
             </div>
 
         </div>
@@ -41,19 +41,16 @@ get_header();
 
 </section>
 
-
-
-
-<!-- Définitions -->
-<section id="definitions" class="section w-100 p-5">
-    <div class="container py-5">
+<!-- Prestations -->
+<section id="prestations" class="section w-100 py-5">
+    <div class="container">
         <h1 class="font-weight-bold font-hard-grey">Titre</h1>
         <hr class="separator mb-4">
         <div class="row card-deck">
             <!-- COL -->
             <div class="col-sm">
                 <!-- CARD -->
-                <div class="p-4">
+                <div class="">
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-feather-alt mr-2 ico-l mb-3"></i>
@@ -99,7 +96,7 @@ get_header();
             <!-- COL END -->
             <div class="col-sm">
             <!-- CARD -->
-            <div class="p-4 card-deck">
+            <div class="">
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-spa mr-2 ico-l mb-3"></i>
@@ -122,14 +119,14 @@ get_header();
                                 <div class="modal-body px-5 text-center">
                                     <div class="mb-2 w-100">
                                         <i class="fas fa-spa ico-m font-light-green"></i>
-                                        <h1 class="font-weight-bold font-light-green">Title</h1>
+                                        <h1 class="font-weight-bold font-light-green">Massages bien-être et sportif</h1>
                                     </div>
                                     <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
                                     <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
                                     <p>
-                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
-                                    sur la réalisation de mouvements spécifiques de détente musculaire,
-                                    d’exercices de respiration et de techniques de visualisation positive.
+                                        LE MASSAGE BIEN-ÊTRE ET SPORTIF : méthode manuelle basée sur 
+                                        l'exécution de différents mouvements agissant sur le corps 
+                                        (peau, muscles, tendons, ligaments...) et sur l'esprit (apaise, réconforte, tonifie...).
                                     </p>
                                 </div>
                                 <div class="modal-footer border-0">
@@ -144,7 +141,7 @@ get_header();
             </div>
             <div class="col-sm">
             <!-- CARD -->
-            <div class="p-4">
+            <div class="">
                     <div class="">
                         <div class="mb-3">
                             <i class="fas fa-book-open mr-2 ico-l mb-3"></i>
@@ -197,29 +194,25 @@ get_header();
 
 
 <!-- MON APPROCHE -->
-<section id="mon-approche" class="w-100 p-5">
+<section id="mon-approche" class="w-100 py-5">
 
-    <div class="container py-5">
+    <div class="container">
 
-        <div class="card-group">
-            <div class="card m-0 col-md-12 border-0 rounded">
+        <div class="row">
+
+            <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0 rounded">
                 <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg" class="rounded" alt="...">
             </div>
 
-            <div class="card m-0 border-0">
-                <div class="card-body">
+            <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0">
+                <div class="">
                     <h1 class="font-weight-bold text-secondary">Mon approche</h1>
                     <hr class="separator">
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur a velit id magna pulvinar mollis.
-                        Phasellus nec turpis id eros hendrerit pulvinar.
-                        Nullam pretium enim eget facilisis scelerisque.
-                        Aliquam vitae mollis est, quis vulputate leo.
-                        Phasellus id egestas mi. Sed faucibus sapien vel luctus cursus.
-                        Ut varius sed enim placerat hendrerit. Nunc commodo,
-                        velit pharetra tristique fringilla, libero nisl aliquam sem,
-                        malesuada placerat ligula urna eget dolor. Vivamus vel elit faucibus, viverra turpis sed,
+                        Je propose à chacun d'entre vous des suivis complets et entièrement adaptés en fonction de vos besoins et de vos attentes :
+                        <br>
+                        Je vous accompagne en tant que Thérapeute en sophrologie pour votre préparation mentale à un événement et/ou pour votre développement personnel et ainsi améliorer votre quotidien.
+                        Je vous accompagne en tant que Praticienne en massages bien-être et sportifs pour votre préparation physique en vue d'un effort et/ou pour votre bien-être et votre entretien corporel tout au long de l'année
                     </p>
                 </div>
             </div>
@@ -234,37 +227,40 @@ get_header();
 
 <!-- TARIFS -->
 <section id="tarifs" class="section w-100 p-5">
-    <div class="container py-5">
+
+    <div class="container">
+
         <div class="row">
-            <div class="col-5">
+
+            <div class="col-12 col-lg-5">
                 <div class="card border-0">
-                    <div class="card-body">
+                    <div class="">
                         <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
                         <hr class="separator">
-                        <p class="card-text">consectetur adipiscing elit. Etiam sit amet ligula scelerisque,
-                            dignissim metus eu, scelerisque ante. Donec quis elit varius, pulvinar erat eu,
-                            rhoncus ligula. Aliquam erat volutpat. Integer eget nisi risus
+                        <p class="card-text">
+                            Je vous propose des suivis complets et entièrement adaptés en fonction de vos besoins et je vous accompagne, à votre rythme, jusqu'à l'atteinte de votre ou vos objectif(s).
                         </p>
                         <hr>
                         <p class="">
                             <div class="mb-3">
-                                <i class="fas fa-leaf mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec sapien non ncidunt.</span>
+                                <i class="fas fa-users mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Sans distinction d'âge.</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-venus-mars mr-2 ico-s font-light-beige"></i>
+                                <span class="font-weight-bold">Sans distinction de sexe.</span>
                             </div>
                             <div class="mb-3">
                                 <i class="fas fa-heartbeat mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Donec nec saphatincidunt.</span>
-                            </div>
-                            <div class="mb-3">
-                                <i class="fas fa-shoe-prints mr-2 ico-s font-light-beige"></i>
-                                <span class="font-weight-bold">Curabitur quis rerit vel et magna.</span>
+                                <span class="font-weight-bold">Sans distinction de condition physique.</span>
                             </div>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-7">
-                <!-- pricing card template 1-->
+
+            <div class="col-12 col-lg-7">
+                <!-- pricing card template 1 -->
                 <div class="row card-deck">
                     <div class="card bg-light-green py-3 text-white text-center rounded border-0 shadow">
                         <div class="card-header bg-transparent text-white border-0">
@@ -281,11 +277,11 @@ get_header();
                             </p>
                         </div>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-main-blanco">Tous les tarifs</a>
+                            <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-blanco">Tous les tarifs</a>
                         </div>
                     </div>
 
-                    <!-- pricing card template 2-->
+                    <!-- pricing card template 2 -->
                     <div class="card py-3 text-center rounded border-0 shadow bg-salmon">
                         <div class="card-header bg-transparent border-0 font-white">
                             <h3 class="card-title font-weight-bold font-white">Massages</h3>
@@ -300,20 +296,25 @@ get_header();
                             </p>
                         </div>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="#" class="btn btn-main-full">Tous les tarifs</a>
+                            <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-full">Tous les tarifs</a>
                         </div>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 
 
 
-<!-- BANNER ICONS-->
+<!-- BANNER ICONS -->
 <section id="banner-icons" class="section w-100 p-5 bg-light-green">
-    <div class="container py-5">
+    <div class="container">
         <div class="my-5 text-white">
             <div class="row card-group">
                 <!-- COL -->
@@ -379,64 +380,37 @@ get_header();
 <!-- END full-width section template -->
 
 
-
-
-
-
-<!-- ARTICLE LOOP => OVERLAY -->
-<section id="articles" class="section w-100 p-5">
-    <div class="container py-5">
-        <h1 class="font-weight-bold font-hard-grey">Les derniers articles</h1>
+<!-- Events -->
+<section id="events" class="section w-100 p-5">
+    <div class="container">
+        <h1 class="font-weight-bold text-secondary">Voir marges tous les titres du site</h1>
         <hr class="separator">
-
-        <div class="d-flex align-items-stretch flex-wrap">
-            <?php
-                $args = array(
-                    'orderby' => 'post_date',
-                    'category' => 2,
-                    'posts_per_page' => 3
-                );
-                $posts_array = get_posts($args);
-                foreach($posts_array as $post){
-                    $post_Id = $post->ID;
-                    ?>
-                    <div class="col-4 mb-5" style="height:500px;">
-                        <div class="card border-0 shadow h-100">
-
-                            <img class="card-img h-100" src="<?php the_post_thumbnail_url();?>" title="" alt="">
-
-                            <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <div class="d-flex flex-column justify-content-center">
-                                    <h2 class="text-white font-weight-bold"><?php echo $post->post_title; ?></h2>
-                                    <div class="">
-                                        <span class="text-white">Auteur: <?php echo $post->post_author; ?></span>
-                                        <br />
-                                        <span class="text-white">Publié: <?php echo $post->post_date; ?></span>
-                                        <br />
-                                        <a href="<?php echo get_permalink($post_Id) ?>" class="stretched-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                }
-            ?>
-
-
-            <div class="col-12 text-center">
-                <a type="button" class="btn btn-main-full" href="./category/blog/">Plus d'articles</a>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
             </div>
-
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
+            </div>
         </div>
-
     </div>
 </section>
 
 
+
 <!-- AVIS CLIENTS-->
 <section id="avis" class="section w-100 p-5 bg-testimonial">
-    <div class="container py-5">
+    <div class="container">
 
         <!-- <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1> -->
 
@@ -490,7 +464,7 @@ get_header();
 <!-- FORMULAIRE CONTACT -->
 <section id="contact" class="section w-100 p-5">
     <!-- CONTAINER -->
-    <div class="container py-5">
+    <div class="container">
             <div class="card-deck mt-5">
                 <div class="card bg-light-green">
                     <div class="card-body font-white">
@@ -504,8 +478,8 @@ get_header();
                         </div>
                         <div class="mb-4">
                             <span class="d-block">Eléonore Hottou</span>
-                            <span class="d-block">06 46 81 94 31</span>
-                            <span class="d-block">hello@sophromassage.fr</span>
+                            <span class="d-block font-weight-bold">06 46 81 94 31</span>
+                            <span class="d-block font-weight-bold">hello@sophromassage.fr</span>
                             <span class="d-block">Les Marjolaines bât. D,<br>296 av. louis Imbert,<br> 83160 La Valette-du-Var</span>
                         </div>
                         <div class="mb-3">
@@ -514,7 +488,7 @@ get_header();
                         <!-- icons -->
                         <div class="mb-3">
                             <a href="" title="" alt=""><i class="fab fa-facebook-square mr-2 ico-m font-white"></i></a>
-                            <a href="" title="" alt=""><i class="fab fa-medium mr-2 ico-m font-white"></i></a>
+                            <!-- <a href="" title="" alt=""><i class="fab fa-medium mr-2 ico-m font-white"></i></a> -->
                         </div>
                     </div>
                 </div>
