@@ -164,6 +164,7 @@ html {
 body{
     background-color: #FEFEFE;
     color: #a3a9b3;
+    font-size: 1.1rem;
 }
 .container{
     width: 100%;
@@ -197,9 +198,9 @@ body{
     -webkit-background-image: linear-gradient(to right, #92a683, #a8ac86, #bdb28c, #d1b796, #e4bda3);
 }
 .bg-testimonial{
-    /* background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
-    background-size: cover; */
-    background-color: #E4BDA3;
+    background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
+    background-size: cover;
+    /* background-color: #E4BDA3; */
 }
 
 /* ===PARALLAX=== */
@@ -292,6 +293,11 @@ body{
     padding: 0px;
     background-color: transparent;
 }
+#page-sub-header p{
+    margin: 0 !important;
+    color:#fff !important;
+    margin-bottom: 20px !important;
+}
 
 /* ===NAVBAR=== */
 .navbar-scroll{
@@ -335,4 +341,14 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a{
 .modal-header{
     background-color: #92A683 !important;
     color: #ffffff;
+}
+/* ===CONTACT FORM=== */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="email"],
+.wpcf7 label
+{
+    background-color: transparent;
+    color: inherit;
+    width: 100%;
 }

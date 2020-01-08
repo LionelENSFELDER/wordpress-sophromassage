@@ -195,15 +195,11 @@ get_header();
 
 <!-- MON APPROCHE -->
 <section id="mon-approche" class="w-100 py-5">
-
     <div class="container">
-
         <div class="row">
-
             <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0 rounded">
                 <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg" class="rounded" alt="...">
             </div>
-
             <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0">
                 <div class="">
                     <h1 class="font-weight-bold text-secondary">Mon approche</h1>
@@ -216,29 +212,25 @@ get_header();
                     </p>
                 </div>
             </div>
-
         </div>
-
     </div>
-
 </section>
 
 
 
 <!-- TARIFS -->
-<section id="tarifs" class="section w-100 p-5">
-
+<section id="tarifs" class="section w-100 py-5">
     <div class="container">
-
         <div class="row">
-
             <div class="col-12 col-lg-5">
                 <div class="card border-0">
                     <div class="">
                         <h1 class="font-weight-bold text-secondary">Donec quis elit varius</h1>
                         <hr class="separator">
                         <p class="card-text">
-                            Je vous propose des suivis complets et entièrement adaptés en fonction de vos besoins et je vous accompagne, à votre rythme, jusqu'à l'atteinte de votre ou vos objectif(s).
+                            Je vous propose des suivis complets et entièrement adaptés en fonction 
+                            de vos besoins et je vous accompagne, à votre rythme, 
+                            jusqu'à l'atteinte de votre ou vos objectif(s).
                         </p>
                         <hr>
                         <p class="">
@@ -258,72 +250,67 @@ get_header();
                     </div>
                 </div>
             </div>
-
             <div class="col-12 col-lg-7">
-                <!-- pricing card template 1 -->
-                <div class="row card-deck">
-                    <div class="card bg-light-green py-3 text-white text-center rounded border-0 shadow">
-                        <div class="card-header bg-transparent text-white border-0">
-                            <h3 class="card-title font-weight-bold text-white">Sophrologie</h3>
-                            <span class="">A partir de </span>
-                            <span class="card-title d-block font-white font-weight-bold important-number font-effect-3d-float">12€</span>
-                           <!-- <span class="d-block py-3"><i class="fas fa-wind mr-2 ico-l font-white"></i></span> -->
+                <div class="row">
+                    <div class="card-deck col-12">
+                        <!-- pricing card template 1 -->
+                        <div class="card col-sm-12 col-md-12 col-lg-6 bg-light-green py-3 text-white text-center rounded border-0 shadow">
+                            <div class="card-header bg-transparent text-white border-0">
+                                <h3 class="card-title font-weight-bold text-white">Sophrologie</h3>
+                                <span class="">A partir de </span>
+                                <span class="card-title d-block font-white font-weight-bold important-number font-effect-3d-float">12€</span>
+                                <!-- <span class="d-block py-3"><i class="fas fa-wind mr-2 ico-l font-white"></i></span> -->
+                            </div>
+                            <div class="card-body py-0">
+                                <p class="card-text my-3">
+                                    <span class="mb-3 d-block">Séance individuelle</span>
+                                    <span class="mb-3 d-block">Séance collective</span>
+                                    <span class="d-block">Professionnel, milieux sportif et associatif</span>
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0">
+                                <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-blanco">Tous les tarifs</a>
+                            </div>
                         </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block">Séance individuelle</span>
-                                <span class="mb-3 d-block">Séance collective</span>
-                                <span class="d-block">Professionnel, milieux sportif et associatif</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-blanco">Tous les tarifs</a>
+                        <!-- pricing card template 2 -->
+                        <div class="card col-sm-12 col-md-12 col-lg-6 py-3 text-center rounded border-0 shadow bg-salmon">
+                            <div class="card-header bg-transparent border-0 font-white">
+                                <h3 class="card-title font-weight-bold font-white">Massages</h3>
+                                <span class="">A partir de </span>
+                                <span class="card-title d-block font-hard-green font-weight-bold important-number font-effect-3d-float">15€</span>
+                            </div>
+                            <div class="card-body py-0">
+                                <p class="card-text my-3">
+                                    <span class="mb-3 d-block font-white">Amma Assis</span>
+                                    <span class="mb-3 d-block font-white">Relaxation coréenne</span>
+                                    <span class="mb-3 d-block font-white">Massage californien</span>
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0">
+                                <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-full">Tous les tarifs</a>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- pricing card template 2 -->
-                    <div class="card py-3 text-center rounded border-0 shadow bg-salmon">
-                        <div class="card-header bg-transparent border-0 font-white">
-                            <h3 class="card-title font-weight-bold font-white">Massages</h3>
-                            <span class="">A partir de </span>
-                            <span class="card-title d-block font-hard-green font-weight-bold important-number font-effect-3d-float">15€</span>
-                        </div>
-                        <div class="card-body py-0">
-                            <p class="card-text my-5">
-                                <span class="mb-3 d-block font-white">Amma Assis</span>
-                                <span class="mb-3 d-block font-white">Relaxation coréenne</span>
-                                <span class="mb-3 d-block font-white">Massage californien</span>
-                            </p>
-                        </div>
-                        <div class="card-footer bg-transparent border-0">
-                            <a href="http://localhost:8080/sophromassage/wp-content/uploads/2019/10/tarifs_2019.pdf" class="btn btn-main-full">Tous les tarifs</a>
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
 
 
 <!-- BANNER ICONS -->
-<section id="banner-icons" class="section w-100 p-5 bg-light-green">
+<section id="banner-icons" class="section w-100 py-5 bg-light-green">
     <div class="container">
-        <div class="my-5 text-white">
-            <div class="row card-group">
+        <div class="my-2 my-lg-5 text-white">
+            <div class="row card-deck">
                 <!-- COL -->
-                <div class="col-sm">
+                <div class="card bg-transparent border-0 col-12 col-sm-12 col-md-6 col-lg-3">
                     <!-- CARD -->
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-sliders-h fa-3x font-white"></i>
+                            <i class="fas fa-sliders-h fa-5x font-white"></i>
                             </div>
                             <span class="card-text">Prestations personnalisées</span>
                         </div>
@@ -332,12 +319,12 @@ get_header();
                 </div>
                 <!-- COL END -->
                 <!-- COL -->
-                <div class="col-sm">
+                <div class="card bg-transparent border-0 col-12 col-sm-12 col-md-6 col-lg-3">
                     <!-- CARD -->
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-compass fa-3x font-white"></i>
+                            <i class="fas fa-compass fa-5x font-white"></i>
                             </div>
                             <span class="card-text">Ecoute et orientation</span>
                         </div>
@@ -346,12 +333,12 @@ get_header();
                 </div>
                 <!-- COL END -->
                 <!-- COL -->
-                <div class="col-sm">
+                <div class="card bg-transparent border-0 col-12 col-sm-12 col-md-6 col-lg-3">
                     <!-- CARD -->
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-road fa-3x font-white"></i>
+                            <i class="fas fa-road fa-5x font-white"></i>
                             </div>
                             <span class="card-text">Déplacement</span>
                         </div>
@@ -360,12 +347,12 @@ get_header();
                 </div>
                 <!-- COL END -->
                 <!-- COL -->
-                <div class="col-sm">
+                <div class="card bg-transparent border-0 col-12 col-sm-12 col-md-6 col-lg-3">
                     <!-- CARD -->
                     <div class="text-center">
                         <div class="mx-auto">
                             <div class="mb-3">
-                            <i class="fas fa-handshake fa-3x font-white"></i>
+                            <i class="fas fa-handshake fa-5x font-white"></i>
                             </div>
                             <span class="card-text">Evénementiel</span>
                         </div>
@@ -381,7 +368,7 @@ get_header();
 
 
 <!-- Events -->
-<section id="events" class="section w-100 p-5">
+<section id="events" class="section w-100 py-5">
     <div class="container">
         <h1 class="font-weight-bold text-secondary">Voir marges tous les titres du site</h1>
         <hr class="separator">
@@ -409,7 +396,7 @@ get_header();
 
 
 <!-- AVIS CLIENTS-->
-<section id="avis" class="section w-100 p-5 bg-testimonial">
+<section id="avis" class="section w-100 py-5 bg-testimonial">
     <div class="container">
 
         <!-- <h1 class="ml-3 font-weight-bold font-hard-grey">Avis clients dynamique</h1> -->
@@ -462,7 +449,7 @@ get_header();
 
 
 <!-- FORMULAIRE CONTACT -->
-<section id="contact" class="section w-100 p-5">
+<section id="contact" class="section w-100 py-5">
     <!-- CONTAINER -->
     <div class="container">
             <div class="card-deck mt-5">
@@ -493,9 +480,11 @@ get_header();
                     </div>
                 </div>
                 <div class="card border-0">
-                    <div class="card-body">
-                        <?php echo do_shortcode( '[contact-form-7 id="208" title="Quick contact form"]' ); ?>
-                    </div>
+                    <!-- <form> -->
+                        <div class="form-group">
+                            <?php echo do_shortcode( '[contact-form-7 id="208" title="Quick contact form"]' ); ?>
+                        </div>
+                    <!-- </form> -->
                 </div>
             </div>
     </div>
