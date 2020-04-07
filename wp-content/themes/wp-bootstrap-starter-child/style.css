@@ -32,12 +32,42 @@ Version:1.0
 /* ===============
    MAINS COLORS
 
-#92A683 : light green
-#E4BDA3 : salmon
-#F1F1F1 : light-grey
+    #92A683 : light green
+    #E4BDA3 : salmon
+    #F1F1F1 : light-grey
+=============== */
 
-   =============== */
+/*=======TAGS=======*/
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FEFEFE;
+    color: #a3a9b3;
+    font-size: 0.8rem;
+}
+/*=======NEUROMORPHISM=======*/
+.neumoshadow{
+    /* Basic styling and alignment */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  border-radius:4px;
+  width:150px;
+  height:150px;
 
+
+  border-radius: 50px;
+background: #FEFEFE;
+box-shadow: 30px 30px 60px #d8d8d8, 
+            -30px -30px 60px #ffffff;;
+}
+
+.neumophism-test{
+    border-radius: 10px;
+    background: #92A683;
+    box-shadow: 30px 30px 60px #7c8d6f,-30px -30px 60px #a8bf97;
+}
 
 /* ===HR separator=== */
 .separator{
@@ -58,15 +88,12 @@ Version:1.0
         url('fonts/fontawesome/webfonts/fa-solid-900.ttf')  format('truetype'), /* Safari, Android, iOS */
         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-html {
-    scroll-behavior: smooth;
-}
 /* ===HOVER=== */
 .shadow-at-hover{
     animation-delay: 1000ms;
 }
 .shadow-at-hover:hover{
-    box-shadow: 10px 5px 5px #F1F1F1;ba
+    box-shadow: 10px 5px 5px #F1F1F1;
 }
 /* ===SHAPES=== */
 .polygon-diagonal{
@@ -161,11 +188,6 @@ html {
     
 }
 /* ===MAIN CONTAINERS=== */
-body{
-    background-color: #FEFEFE;
-    color: #a3a9b3;
-    font-size: 1.1rem;
-}
 .container{
     width: 100%;
 }
@@ -198,7 +220,7 @@ body{
     -webkit-background-image: linear-gradient(to right, #92a683, #a8ac86, #bdb28c, #d1b796, #e4bda3);
 }
 .bg-testimonial{
-    background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
+    background-image: url('https://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
     background-size: cover;
     /* background-color: #E4BDA3; */
 }
@@ -206,7 +228,7 @@ body{
 /* ===PARALLAX=== */
 .parallax {
   /* The image used */
-  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
+  background-image: url('https://localhost:8080/sophromassage/wp-content/uploads/2019/09/designecologist-P1sMtXL4jow-unsplash.jpg');
 
   /* Set a specific height */
   min-height: 200px; 
@@ -219,7 +241,7 @@ body{
 }
 .parallax-2 {
   /* The image used */
-  background-image: url('http://localhost:8080/sophromassage/wp-content/uploads/2019/09/sarah-comeau-hcs5KxfmVnQ-unsplash.jpg');
+  background-image: url('https://localhost:8080/sophromassage/wp-content/uploads/2019/09/sarah-comeau-hcs5KxfmVnQ-unsplash.jpg');
 
   /* Set a specific height */
   min-height: 200px; 

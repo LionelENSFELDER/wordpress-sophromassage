@@ -6,7 +6,6 @@ Template Name: Home_page
 get_header();
 ?>
 
-
 <!-- QUI SUIS-JE ? -->
 <section id="me" class="w-100 py-5">
 
@@ -16,8 +15,8 @@ get_header();
         
             <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0">
                 <div class="">
-                    <h1 class="font-weight-bold font-hard-grey">Qui suis-je ?</h1>
-                    <hr class="separator">
+                    <h1 class="display-4 font-weight-bold font-hard-grey mb-4">Qui suis-je ?</h1>
+                    <!-- <hr class="separator"> -->
                     <p class="card-text">
                         Après avoir travaillé plusieurs années dans le secteur Médico-technique, 
                         j'ai décidé d’accroître mon expérience par des formations complètes et enrichissantes. 
@@ -44,116 +43,109 @@ get_header();
 <!-- Prestations -->
 <section id="prestations" class="section w-100 py-5">
     <div class="container">
-        <h1 class="font-weight-bold font-hard-grey">Titre</h1>
-        <hr class="separator mb-4">
-        <div class="row card-deck">
-            <!-- COL -->
-            <div class="col-sm">
-                <!-- CARD -->
-                <div class="">
-                    <div class="">
-                        <div class="mb-3">
-                            <i class="fas fa-feather-alt mr-2 ico-l mb-3"></i>
-                            <h4 class="font-weight-bold font-hard-grey">Sophrologie</h4>
-                        </div>
-                        <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus</button>
-                    </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="define_sophrologie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <!-- <div class="modal-header border-0">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div> -->
-                                <div class="modal-body px-5 text-center">
-                                    <div class="mb-2 w-100">
-                                        <i class="fas fa-wind ico-m font-light-green"></i>
-                                        <h1 class="font-weight-bold font-light-green">Title</h1>
-                                    </div>
-                                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
-                                    <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
-                                    <p>
-                                    Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
-                                    sur la réalisation de mouvements spécifiques de détente musculaire,
-                                    d’exercices de respiration et de techniques de visualisation positive.
-                                    </p>
-                                </div>
-                                <div class="modal-footer border-0">
-                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
-                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD END-->
-            </div>
-            <!-- COL END -->
-            <div class="col-sm">
+        <h1 class="display-4 font-weight-bold font-hard-grey text-center mb-4">Mes prestations</h1>
+        <!-- <hr class="separator mb-4"> -->
+        <div class="card-deck">
             <!-- CARD -->
-            <div class="">
-                    <div class="">
-                        <div class="mb-3">
-                            <i class="fas fa-spa mr-2 ico-l mb-3"></i>
-                            <h4 class="font-weight-bold font-hard-grey">Massages bien-être et sportif</h4>
-                        </div>
-                        <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_massage">En savoir plus</button>
+            <div class="card border-0">
+                <div class="text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-feather-alt mr-2 ico-l mb-3"></i>
+                        <h4 class="font-weight-bold font-hard-grey">Sophrologie</h4>
                     </div>
+                    <p class="card-text">Comprendre et gérer vos émotions, apprivoiser le stress et l'anxiété.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sophrologie">En savoir plus</button>
+                </div>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="define_massage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                <!-- Modal -->
+                <div class="modal fade" id="define_sophrologie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                                <!-- <div class="modal-header border-0">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div> -->
-                                <div class="modal-body px-5 text-center">
-                                    <div class="mb-2 w-100">
-                                        <i class="fas fa-spa ico-m font-light-green"></i>
-                                        <h1 class="font-weight-bold font-light-green">Massages bien-être et sportif</h1>
-                                    </div>
-                                    <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
-                                    <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
-                                    <p>
-                                        LE MASSAGE BIEN-ÊTRE ET SPORTIF : méthode manuelle basée sur 
-                                        l'exécution de différents mouvements agissant sur le corps 
-                                        (peau, muscles, tendons, ligaments...) et sur l'esprit (apaise, réconforte, tonifie...).
-                                    </p>
+                            <!-- <div class="modal-header border-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div> -->
+                            <div class="modal-body px-5 text-center">
+                                <div class="mb-2 w-100">
+                                    <i class="fas fa-wind ico-m font-light-green"></i>
+                                    <h1 class="font-weight-bold font-light-green">Title</h1>
                                 </div>
-                                <div class="modal-footer border-0">
-                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
-                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
-                                </div>
+                                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
+                                <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
+                                <p>
+                                Fondée sur une méthodologie précise, la sophrologie est une technique exclusivement verbale basée
+                                sur la réalisation de mouvements spécifiques de détente musculaire,
+                                d’exercices de respiration et de techniques de visualisation positive.
+                                </p>
+                            </div>
+                            <div class="modal-footer border-0">
+                            <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- CARD END-->
             </div>
-            <div class="col-sm">
-            <!-- CARD -->
-            <div class="">
-                    <div class="">
-                        <div class="mb-3">
-                            <i class="fas fa-book-open mr-2 ico-l mb-3"></i>
-                            <h4 class="font-weight-bold font-hard-grey">Ateliers & Formations</h4>
-                        </div>
-                        <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus</button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+            <!-- CARD -->
+            <div class="card border-0">
+                <div class="text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-spa mr-2 ico-l mb-3"></i>
+                        <h4 class="font-weight-bold font-hard-grey">Massages bien-être et sportif</h4>
+                    </div>
+                    <p class="card-text">Découvrez mes méthodes de massage pour vous faire plaisir tout en douceur.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_massage">En savoir plus</button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="define_massage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <!-- <div class="modal-header border-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div> -->
+                            <div class="modal-body px-5 text-center">
+                                <div class="mb-2 w-100">
+                                    <i class="fas fa-spa ico-m font-light-green"></i>
+                                    <h1 class="font-weight-bold font-light-green">Massages bien-être et sportif</h1>
+                                </div>
+                                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/09/thomas-lambert-EhLH-WN7F7I-unsplash.jpg" class="img-fluid" alt="Responsive image">
+                                <span class="font-weight-bold">Lorem Ipsum balek tentra sutra.</span>
+                                <p>
+                                    LE MASSAGE BIEN-ÊTRE ET SPORTIF : méthode manuelle basée sur 
+                                    l'exécution de différents mouvements agissant sur le corps 
+                                    (peau, muscles, tendons, ligaments...) et sur l'esprit (apaise, réconforte, tonifie...).
+                                </p>
+                            </div>
+                            <div class="modal-footer border-0">
+                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- CARD -->
+            <div class="card border-0">
+                <div class="text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-book-open mr-2 ico-l mb-3"></i>
+                        <h4 class="font-weight-bold font-hard-grey">Ateliers & Formations</h4>
+                    </div>
+                    <p class="card-text">Avant l'effort, après l'effort ou conditionnement physique. Une formation sur mesure.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-toggle="modal" data-target="#define_sportif">En savoir plus</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="define_sportif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <!-- <div class="modal-header border-0">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -174,18 +166,15 @@ get_header();
                                     </p>
                                 </div>
                                 <div class="modal-footer border-0">
-                                <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
+                                    <button type="button" class="btn btn-link-arrow font-hard-grey px-0" data-dismiss="modal">Fermer</button>
                                     <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button> -->
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- CARD END-->
             </div>
         </div>
-        <!-- END CARD DECK-->
     </div>
 </section>
 
@@ -198,7 +187,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0 rounded">
-                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2019/07/max-van-den-oetelaar-buymYm3RQ3U-unsplash.jpg" class="rounded" alt="...">
+                <img src="http://localhost:8080/sophromassage/wp-content/uploads/2020/01/fogg-message-sent.png" class="rounded" alt="...">
             </div>
             <div class="card m-0 col-12 col-sm-12 col-md-12 col-lg-6 border-0">
                 <div class="">
@@ -368,7 +357,7 @@ get_header();
 
 
 <!-- Events -->
-<section id="events" class="section w-100 py-5">
+<!-- <section id="events" class="section w-100 py-5">
     <div class="container">
         <h1 class="font-weight-bold text-secondary">Voir marges tous les titres du site</h1>
         <hr class="separator">
@@ -391,7 +380,60 @@ get_header();
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+
+<!-- ARTICLE LOOP -->
+<section id="articles" class="section w-100 p-5">
+    <div class="container">
+        <h1 class="ml-3 font-weight-bold font-hard-grey">Les derniers articles</h1>
+
+        <div class="card-deck">
+            <?php
+                $args = array(
+                    'orderby' => 'post_date',
+                    'category' => 2,
+                    'numberposts' => 3
+                );
+                $posts_array = get_posts($args);
+                foreach($posts_array as $post){
+                    $post_id = $post->ID;
+                    $title = $post->post_title;
+                    $date = $post->post_date;
+                    $author_id = $post->post_author;
+                    ?>
+                    
+                        <div class="card border-0 shadow">
+
+                            <img class="card-img h-100" src="<?php the_post_thumbnail_url();?>" title="" alt="">
+
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h2 class="text-white font-weight-bold"><?php echo $title; ?></h2>
+                                    <div class="">
+                                        <span class="text-white">Auteur: <?php the_author_meta('nickname', $author_id); ?></span>
+                                        <br />
+                                        <span class="text-white">Publié: <?php echo $date; ?></span>
+                                        <br />
+                                        <a href="<?php echo get_permalink($post_Id) ?>" class="stretched-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                }
+            ?>  
+        </div>
+    </div>
 </section>
+
+
+
+
+
 
 
 

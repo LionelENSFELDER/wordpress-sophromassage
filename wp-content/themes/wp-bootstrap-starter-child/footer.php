@@ -22,7 +22,7 @@
             <div class="site-info">
                 &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
                 <span class="sep"> | </span>
-                <a class="credits" href="#" target="_blank" title="Développer par Lionel Ensfelder" alt="Développer par Lionel Ensfelder"><?php echo esc_html__('Développer par Lionel Ensfelder','wp-bootstrap-starter'); ?></a>
+                <a class="credits" href="#" target="_blank" title="Développé par Lionel Ensfelder" alt="Développé par Lionel Ensfelder"><?php echo esc_html__('Développé par Lionel Ensfelder','wp-bootstrap-starter'); ?></a>
 				<span class="sep"> | </span>
                 <a class="credits" href="#" target="_blank" title="Mentions légales" alt="Mentions légales"><?php echo esc_html__('Mentions légales',''); ?></a>
             </div><!-- close .site-info -->
